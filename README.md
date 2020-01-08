@@ -18,4 +18,4 @@
 
 1. [Reverse Integer](https://leetcode.com/problems/reverse-integer/)
 
-- 풀이
+- [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/leetcode/reverseinteger/Solution.java)
