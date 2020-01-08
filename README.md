@@ -20,3 +20,6 @@
 
 1. [Reverse Integer](https://leetcode.com/problems/reverse-integer/)
    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/leetcode/reverseinteger/Solution.java)
+
+2. [Two Sum](https://leetcode.com/problems/two-sum/)
+   - [풀이]()
