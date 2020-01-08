@@ -24,4 +24,13 @@
 
 2. [Two Sum](https://leetcode.com/problems/two-sum/)
    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/leetcode/twosum/Solution.java)
-   - 시간복잡도 n^2인 코드를 n으로 개선할 방법 고민(HashMap사용?)
+
+---
+
+## 생각해보기
+
+---
+
+1. 주어진 문자열에 중복된 문자가 있는지 여부를 검사하는 함수
+
+   - [풀이]()
