@@ -7,8 +7,10 @@
 ---
 
 1. [완주하지 못한 선수](https://programmers.co.kr/learn/courses/30/lessons/42576)
+   - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/incompleteplayer/Solution.java)
 
-- [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/incompleteplayer/Solution.java)
+2. [문자열 압축](https://programmers.co.kr/learn/courses/30/lessons/60057)
+   - [풀이]()
 
 ---
 
@@ -17,5 +19,4 @@
 ---
 
 1. [Reverse Integer](https://leetcode.com/problems/reverse-integer/)
-
-- [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/leetcode/reverseinteger/Solution.java)
+   - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/leetcode/reverseinteger/Solution.java)
