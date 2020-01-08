@@ -23,4 +23,5 @@
    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/leetcode/reverseinteger/Solution.java)
 
 2. [Two Sum](https://leetcode.com/problems/two-sum/)
-   - [풀이]()
+   - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/leetcode/twosum/Solution.java)
+   - 시간복잡도 n^2인 코드를 n으로 개선할 방법 고민(HashMap사용?)
