@@ -10,7 +10,8 @@
    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/incompleteplayer/Solution.java)
 
 2. [문자열 압축](https://programmers.co.kr/learn/courses/30/lessons/60057)
-   - [풀이]()
+   - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/incompleteplayer/Solution.java)
+   - 시간복잡도 nlogn으로 개선할 방법 고민...
 
 ---
 
