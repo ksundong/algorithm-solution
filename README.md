@@ -8,7 +8,7 @@
 
 1. [완주하지 못한 선수](https://programmers.co.kr/learn/courses/30/lessons/42576)
 
-- 풀이
+- [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/incompleteplayer/Solution.java)
 
 ---
 
