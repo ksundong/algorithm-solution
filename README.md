@@ -20,7 +20,7 @@
 4. [가장 큰 수](https://programmers.co.kr/learn/courses/30/lessons/42746)
    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/baekjoon/sortnumber3/Main.java)
    - 테스트 코드 작성을 안했다...
-   - count sort를 이용하면 더 빠르게 할 수 있다고 한다.(적용 후 코드 수정 예정)
+   - count sort를 이용하면 더 빠르게 할 수 있다. (메모리도 적게먹고, 속도도 O(nlogn) -> O(n)이라 더 빠르게 되었다.)
    
 ---
 
