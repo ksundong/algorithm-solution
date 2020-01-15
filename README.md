@@ -18,7 +18,9 @@
    - 다른 사람 풀이를 확인해보니 quick sort를 직접 구현하는 경우도 있었다.
    
 4. [가장 큰 수](https://programmers.co.kr/learn/courses/30/lessons/42746)
-   - [풀이]()
+   - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/baekjoon/sortnumber3/Main.java)
+   - 테스트 코드 작성을 안했다...
+   - count sort를 이용하면 더 빠르게 할 수 있다고 한다.(적용 후 코드 수정 예정)
    
 ---
 
