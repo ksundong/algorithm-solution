@@ -27,7 +27,7 @@ public class Solution {
             stringBuilder.append(stringNumbers[i]);
         }
         String answer = stringBuilder.toString();
-        if (answer.startsWith("0")) answer = "0";
+        if (answer.charAt(0) == '0') answer = "0";
 
         return answer;
     }
