@@ -18,9 +18,10 @@
    - 다른 사람 풀이를 확인해보니 quick sort를 직접 구현하는 경우도 있었다.
    
 4. [가장 큰 수](https://programmers.co.kr/learn/courses/30/lessons/42746)
-   - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/baekjoon/sortnumber3/Main.java)
-   - 테스트 코드 작성을 안했다...
-   - count sort를 이용하면 더 빠르게 할 수 있다. (메모리도 적게먹고, 속도도 O(nlogn) -> O(n)이라 더 빠르게 되었다.)
+   - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/biggestnumber/Solution.java)
+   - String을 합친것을 비교하는 것 vs 같은 string을 4번 반복한 후 4자리까지 자르는 것
+   - 예외 사항이 좀 많다. 0이나 12, 121 같은것.
+   - 소트 메소드를 활용하는 Comparator를 잘 활용하면 정렬문제를 좀 더 빠르게 풀 수 있을 것 같다.
    
 ---
 
@@ -46,7 +47,9 @@
 ---
 
 1. [수 정렬하기 3](https://www.acmicpc.net/problem/10989)
-   - [풀이]()
+   - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/baekjoon/sortnumber3/Main.java)
+   - 테스트 코드 작성을 안했다...
+   - count sort를 이용하면 더 빠르게 할 수 있다. (메모리도 적게먹고, 속도도 O(nlogn) -> O(n)이라 더 빠르게 되었다.)
 
 ---
 
