@@ -14,7 +14,8 @@
    - 시간복잡도 nlogn으로 개선할 방법 고민...
 
 3. [K번째수](https://programmers.co.kr/learn/courses/30/lessons/42748)
-   - [풀이]()
+   - [풀이](https://github.com/ksundong/algorithm-solution/blob/19427fc431bf5b53fdea06dd4ced059383810885/src/main/java/dev/idion/programmers/kthnumber/Solution.java)
+   - 다른 사람 풀이를 확인해보니 quick sort를 직접 구현하는 경우도 있었다.
    
 4. [가장 큰 수](https://programmers.co.kr/learn/courses/30/lessons/42746)
    - [풀이]()
