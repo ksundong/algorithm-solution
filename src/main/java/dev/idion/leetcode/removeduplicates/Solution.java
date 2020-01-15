@@ -1,7 +1,5 @@
 package dev.idion.leetcode.removeduplicates;
 
-import java.util.Arrays;
-
 public class Solution {
     public int removeDuplicates(int[] nums) {
         int currentNumber = Integer.MIN_VALUE;
@@ -15,8 +13,7 @@ public class Solution {
                 nextIndex++;
             }
         }
-        nums = Arrays.copyOf(nums, nextIndex);
 
-        return nums.length;
+        return nextIndex;
     }
 }
