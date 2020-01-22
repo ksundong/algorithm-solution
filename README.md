@@ -22,7 +22,8 @@
 5. [위장](https://programmers.co.kr/learn/courses/30/lessons/42578)
    - [풀이]()
 6. [전화번호 목록](https://programmers.co.kr/learn/courses/30/lessons/42577)
-   - [풀이]()
+   - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/phonenumberlist/Solution.java)
+   - 이중 for문을 이용하여 풀었다. 오히려 정렬알고리즘 쓰는게 해시보다 더 빠를것 같은데...
 ---
 
 ## [LeetCode](https://leetcode.com/)
