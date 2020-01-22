@@ -23,7 +23,9 @@
    - [풀이]()
 6. [전화번호 목록](https://programmers.co.kr/learn/courses/30/lessons/42577)
    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/phonenumberlist/Solution.java)
-   - 이중 for문을 이용하여 풀었다. 오히려 정렬알고리즘 쓰는게 해시보다 더 빠를것 같은데...
+   - 이중 for문을 이용하여 풀었다.
+   - 사전에 정렬을 하고 뒤의 것을 앞의 것이 포함되어있는지 확인했다.(String형태는 사전식 정렬을 하기 때문에)
+   - 해시를 적용한 풀이를 보았는데 2중 for문, for문 구조로 더 복잡해지는 경향이 있어 풀이에선 제외하였다.
 ---
 
 ## [LeetCode](https://leetcode.com/)
