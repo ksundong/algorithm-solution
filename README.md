@@ -43,7 +43,8 @@
    - 이것을 10으로 나머지 연산과 나누기 연산을 하는 방식으로 8ms까지 줄였다.
    - Map을 Set으로 바꾸니 1ms가 걸렸다.
 5. [Single Number](https://leetcode.com/problems/single-number/)
-   - [풀이]()
+   - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/leetcode/singlenumber/Solution.java)
+   - 처음에 HashMap을 이용해서 해결했는데 21ms가 나왔다.
 
 ---
 
