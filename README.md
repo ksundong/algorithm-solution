@@ -38,7 +38,7 @@
    - 내부 배열 조정한 것을 어떻게 테스트해야하는지 모르겠음.. 찾아보기!!
    - LeetCode 솔루션을 봤는데 문제를 잘못 이해했었다!
 4. [Happy Number](https://leetcode.com/problems/happy-number/)
-   - [풀이]()
+   - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/leetcode/happynumber/Solution.java)
    - 처음에 String으로 만들어서 해결했는데 31ms가 나왔다.
    - 이것을 10으로 나머지 연산과 나누기 연산을 하는 방식으로 8ms까지 줄였다.
    - Map을 Set으로 바꾸니 1ms가 걸렸다.
