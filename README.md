@@ -7,8 +7,8 @@
 1. [완주하지 못한 선수](https://programmers.co.kr/learn/courses/30/lessons/42576)
    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/incompleteplayer/Solution.java)
 2. [문자열 압축](https://programmers.co.kr/learn/courses/30/lessons/60057)
-   - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/incompleteplayer/Solution.java)
-   - 시간복잡도 nlogn으로 개선할 방법 고민...
+   - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/compressstring/Solution.java)
+   - 해시를 사용해봐야 이점이 없는 듯 싶어 해시는 사용하지 않았다.
 3. [K번째수](https://programmers.co.kr/learn/courses/30/lessons/42748)
    - [풀이](https://github.com/ksundong/algorithm-solution/blob/19427fc431bf5b53fdea06dd4ced059383810885/src/main/java/dev/idion/programmers/kthnumber/Solution.java)
    - 다른 사람 풀이를 확인해보니 quick sort를 직접 구현하는 경우도 있었다.
