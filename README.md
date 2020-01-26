@@ -4,8 +4,6 @@
 
 ## [프로그래머스](https://programmers.co.kr/)
 
----
-
 1. [완주하지 못한 선수](https://programmers.co.kr/learn/courses/30/lessons/42576)
    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/incompleteplayer/Solution.java)
 2. [문자열 압축](https://programmers.co.kr/learn/courses/30/lessons/60057)
@@ -32,8 +30,6 @@
 
 ## [LeetCode](https://leetcode.com/)
 
----
-
 1. [Reverse Integer](https://leetcode.com/problems/reverse-integer/)
    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/leetcode/reverseinteger/Solution.java)
 2. [Two Sum](https://leetcode.com/problems/two-sum/)
@@ -56,8 +52,6 @@
 
 ## [BAEKJOON](https://www.acmicpc.net/)
 
----
-
 1. [수 정렬하기 3](https://www.acmicpc.net/problem/10989)
    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/baekjoon/sortnumber3/Main.java)
    - 테스트 코드 작성을 안했다...
@@ -66,8 +60,6 @@
 ---
 
 ## 생각해보기
-
----
 
 1. 주어진 문자열에 중복된 문자가 있는지 여부를 검사하는 함수
    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/thinking/overlapchar/Solution.java)
