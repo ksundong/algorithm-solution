@@ -16,24 +16,26 @@ public class Solution {
     }
 
     private int countSplitInput(String input, int splitCount) {
+        StringBuilder splitStringBuilder = new StringBuilder();
         int repeat = input.length() / splitCount; // 반복 가능한 횟수 지정
 
         String beforeString = "";
         int count = 1;
-        StringBuilder splitStringBuilder = new StringBuilder();
-        for (int i = 0; i < repeat; i++) {
-            String splitInput = input.substring(i * splitCount, (i + 1) * splitCount);
-            if (beforeString.equals(splitInput)) {
-                count++;
-            } else {
+        for (int i = 0; i <= repeat; i++) {
+            int beginIndex = i * splitCount;
+            int endIndex = Math.min((i + 1) * splitCount, input.length());
+
+            String splitInput = input.substring(beginIndex, endIndex);
+
+            if (beforeString.equals(splitInput)) count++;
+            else {
                 if (count > 1) splitStringBuilder.append(count);
                 splitStringBuilder.append(beforeString);
                 count = 1;
             }
-
             beforeString = splitInput;
         }
-        if (count > 1) splitStringBuilder.append(count);
-        return splitStringBuilder.append(beforeString).append(input.substring(splitCount * repeat)).toString().length();
+
+        return splitStringBuilder.append(input.substring(splitCount * repeat)).toString().length();
     }
 }
