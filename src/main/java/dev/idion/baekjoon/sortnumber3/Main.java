@@ -17,12 +17,12 @@ public class Main {
         }
 
         for (int i = 0; i <= 10000; i++) {
-            while(numbers[i] != 0) {
+            while (numbers[i] != 0) {
                 stringBuilder.append(i).append("\n");
                 numbers[i]--;
             }
         }
 
-        System.out.println(stringBuilder.toString());
+        System.out.print(stringBuilder.toString());
     }
 }
