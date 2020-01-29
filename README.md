@@ -72,5 +72,9 @@
    - [버블 정렬](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/thinking/sorting/BubbleSort.javahttps://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/thinking/sorting/BubbleSort.java)
    - [삽입 정렬](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/thinking/sorting/SelectionSort.java)
 3. 위 정렬의 장단점과 복잡도에 대해 알아보자
-4. count sort와 radix sort의 코드를 이해하보고 장점은 무엇인지 알아보자
+4. count sort와 radix sort의 코드를 이해해보고 장점은 무엇인지 알아보자
 5. 해시에 대해 더 공부해보자
+6. 이진 트리가 무엇인지 학습한다.
+7. 이진 검색트리가 무엇인지 학습한다.
+8. 트리의 순회에 대해 학습한다.
+9. 힙이 무엇인지와 힙 정렬에 대해 학습한다.
