@@ -55,6 +55,9 @@
 1. [수 정렬하기 3](https://www.acmicpc.net/problem/10989)
    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/baekjoon/sortnumber3/Main.java)
    - count sort를 이용하면 더 빠르게 할 수 있다. (메모리도 적게먹고, 속도도 O(nlogn) -> O(n)이라 더 빠르게 되었다.)
+2. [트리 순회](https://www.acmicpc.net/problem/1991)
+   - [풀이]()
+   - 전위 순회, 중위 순회, 후위 순회가 무엇인지 몰라서 확인해보기로 했다.
 
 ---
 
