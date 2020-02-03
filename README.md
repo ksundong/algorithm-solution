@@ -30,6 +30,7 @@
    - [풀이]()
    - 일단 Test Case를 만들었다.
    - 일단 배열의 length값을 빼고 더해보았다. (test 1, 3 실패)
+   - 만들어 둔 Test Case를 모두 만족하는 코드를 작성하였다.
 ---
 
 ## [LeetCode](https://leetcode.com/)
