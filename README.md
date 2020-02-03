@@ -27,10 +27,11 @@
    - 사전에 정렬을 하고 뒤의 것을 앞의 것이 포함되어있는지 확인했다.(String형태는 사전식 정렬을 하기 때문에)
    - 해시를 적용한 풀이를 보았는데 2중 for문, for문 구조로 더 복잡해지는 경향이 있어 풀이에선 제외하였다.
 7. [체육복](https://programmers.co.kr/learn/courses/30/lessons/42862)
-   - [풀이]()
+   - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/gymsuit/Solution.java)
    - 일단 Test Case를 만들었다.
    - 일단 배열의 length값을 빼고 더해보았다. (test 1, 3 실패)
    - 만들어 둔 Test Case를 모두 만족하는 코드를 작성하였다.
+   - 예외 상황이 있어서(조건을 제대로 안읽어서) 코드를 수정했다. (먼저 같은 경우를 비교)
 ---
 
 ## [LeetCode](https://leetcode.com/)

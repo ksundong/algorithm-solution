@@ -52,4 +52,14 @@ class SolutionTest {
         int actual = solution.solution(n, lost, reserve);
         assertEquals(expected, actual, "예상 출력과 다릅니다.");
     }
+
+    @Test
+    void testSolution5() {
+        int n = 10;
+        int[] lost = {3, 9, 10};
+        int[] reserve = {3, 8, 9};
+        int expected = 9;
+        int actual = solution.solution(n, lost, reserve);
+        assertEquals(expected, actual, "예상 출력과 다릅니다.");
+    }
 }
