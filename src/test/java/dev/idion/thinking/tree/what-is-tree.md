@@ -50,6 +50,12 @@ Tree 구조는 Node로 이루어진 자료구조 입니다.
 
 ## Binary Tree가 무엇인가?
 
+이진 트리(Binary Tree)란, 각 node가 최대 2개의 child node를 갖는 트리입니다.
+
+각 child 노드는 left child node, right child node로 불립니다.
+
+[https://ko.wikipedia.org/wiki/%EC%9D%B4%EC%A7%84_%ED%8A%B8%EB%A6%AC](https://ko.wikipedia.org/wiki/이진_트리)
+
 ## Binary Search Tree가 무엇인가?
 
 ## 트리의 순회 방법에는 어떤 것들이 있는가?
