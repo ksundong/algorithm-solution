@@ -29,6 +29,7 @@
 7. [체육복](https://programmers.co.kr/learn/courses/30/lessons/42862)
    - [풀이]()
    - 일단 Test Case를 만들었다.
+   - 일단 배열의 length값을 빼고 더해보았다. (test 1, 3 실패)
 ---
 
 ## [LeetCode](https://leetcode.com/)
