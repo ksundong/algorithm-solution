@@ -32,6 +32,8 @@
    - 일단 배열의 length값을 빼고 더해보았다. (test 1, 3 실패)
    - 만들어 둔 Test Case를 모두 만족하는 코드를 작성하였다.
    - 예외 상황이 있어서(조건을 제대로 안읽어서) 코드를 수정했다. (먼저 같은 경우를 비교)
+8. [2016년](https://programmers.co.kr/learn/courses/30/lessons/12901)
+   - [풀이]()
 ---
 
 ## [LeetCode](https://leetcode.com/)
