@@ -33,7 +33,10 @@
    - 만들어 둔 Test Case를 모두 만족하는 코드를 작성하였다.
    - 예외 상황이 있어서(조건을 제대로 안읽어서) 코드를 수정했다. (먼저 같은 경우를 비교)
 8. [2016년](https://programmers.co.kr/learn/courses/30/lessons/12901)
-   - [풀이]()
+   - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/year2016/Solution.java)
+   - Test Case를 하나 만들었다.
+   - 너무 쉬웠다. 역시 CodeSquad Java Playground!
+   - https://www.inflearn.com/course/java-codesquad/dashboard
 ---
 
 ## [LeetCode](https://leetcode.com/)
