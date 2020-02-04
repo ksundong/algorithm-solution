@@ -38,7 +38,10 @@
    - 너무 쉬웠다. 역시 CodeSquad Java Playground!
    - https://www.inflearn.com/course/java-codesquad/dashboard
 9. [가운데 글자 가져오기](https://programmers.co.kr/learn/courses/30/lessons/12903)
-   - [풀이]()
+   - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/getmiddlecharacter/Solution.java)
+   - Test Case를 가져와서 만들었다.
+   - 역시 너무 쉬웠다.
+   - 좀 더 짧은 코드를 만들기 위해서, 짝수, 홀수 모두 통용되는 코드를 짜기위해 노력했다.
 ---
 
 ## [LeetCode](https://leetcode.com/)
