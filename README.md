@@ -45,6 +45,7 @@
 10. [같은 숫자는 싫어](https://programmers.co.kr/learn/courses/30/lessons/12906)
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/7229adab2d/src/main/java/dev/idion/programmers/noduplicatenumber/Solution.java)
     - 풀이는 했지만 공간복잡도가 높아지는 단점이 있다.
+    - Arrays.copyOf를 사용하지 않았더니 0.5 ms가 단축되었다.
 ---
 
 ## [LeetCode](https://leetcode.com/)
