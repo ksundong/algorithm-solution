@@ -43,7 +43,8 @@
    - 역시 너무 쉬웠다.
    - 좀 더 짧은 코드를 만들기 위해서, 짝수, 홀수 모두 통용되는 코드를 짜기위해 노력했다.
 10. [같은 숫자는 싫어](https://programmers.co.kr/learn/courses/30/lessons/12906)
-   - [풀이]()
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/7229adab2d/src/main/java/dev/idion/programmers/noduplicatenumber/Solution.java)
+    - 풀이는 했지만 공간복잡도가 높아지는 단점이 있다.
 ---
 
 ## [LeetCode](https://leetcode.com/)
