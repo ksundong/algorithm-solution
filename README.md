@@ -50,7 +50,9 @@
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/0007cfb4c168f48bf1f4597814fc715d6a33e685/src/main/java/dev/idion/programmers/dividingnumberarray/Solution.java)
     - 별로 깊게 생각해보지 않아도 되는 문제였다.
 12. [두 정수 사이의 합](https://programmers.co.kr/learn/courses/30/lessons/12912)
-    - [풀이]()
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/812e541480de28312a7b55427065738241db2361/src/main/java/dev/idion/programmers/twointegersum/Solution.java)
+    - 등차수열의 합 공식을 이용해서 풀었다.
+    - for문으로 풀면 오래걸림(통과는 함...)
 13. [문자열 내 마음대로 정렬하기](https://programmers.co.kr/learn/courses/30/lessons/12915)
     - [풀이]()
 14. [문자열 내 p와 y의 개수](https://programmers.co.kr/learn/courses/30/lessons/12916)
