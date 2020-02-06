@@ -3,7 +3,7 @@ package dev.idion.programmers.stringpandycount;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.fail;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class SolutionTest {
     private Solution solution;
@@ -15,6 +15,17 @@ class SolutionTest {
 
     @Test
     void testSolution1() {
-        fail();
+        String s = "pPoooyY";
+        boolean expected = true;
+        boolean actual = solution.solution(s);
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    void testSolution2() {
+        String s = "Pyy";
+        boolean expected = false;
+        boolean actual = solution.solution(s);
+        assertEquals(expected, actual);
     }
 }
