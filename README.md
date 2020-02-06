@@ -59,7 +59,9 @@
     - comparator를 좀 더 재밌게 쓸 수 있었다.
     - 강추문제!!
 14. [문자열 내 p와 y의 개수](https://programmers.co.kr/learn/courses/30/lessons/12916)
-    - [풀이]()
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/stringpandycount/Solution.java)
+    - uppercase나 lowercase를 사용하면 속도가 어떻게 변할지는 고민해봐야 할 것 같다.
+    - 로직은 간단!
 ---
 
 ## [LeetCode](https://leetcode.com/)
