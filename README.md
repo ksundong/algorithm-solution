@@ -49,6 +49,12 @@
 11. [나누어 떨어지는 숫자 배열](https://programmers.co.kr/learn/courses/30/lessons/12910)
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/0007cfb4c168f48bf1f4597814fc715d6a33e685/src/main/java/dev/idion/programmers/dividingnumberarray/Solution.java)
     - 별로 깊게 생각해보지 않아도 되는 문제였다.
+12. [두 정수 사이의 합](https://programmers.co.kr/learn/courses/30/lessons/12912)
+    - [풀이]()
+13. [문자열 내 마음대로 정렬하기](https://programmers.co.kr/learn/courses/30/lessons/12915)
+    - [풀이]()
+14. [문자열 내 p와 y의 개수](https://programmers.co.kr/learn/courses/30/lessons/12916)
+    - [풀이]()
 ---
 
 ## [LeetCode](https://leetcode.com/)
