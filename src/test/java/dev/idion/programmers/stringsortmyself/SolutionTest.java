@@ -17,7 +17,7 @@ class SolutionTest {
     void testSolution1() {
         String[] strings = {"sun", "bed", "cat"};
         int n = 1;
-        String[] expected = {"car", "bed", "sun"};
+        String[] expected = {"cat", "bed", "sun"};
         String[] actual = solution.solution(strings, n);
         assertArrayEquals(expected, actual);
     }

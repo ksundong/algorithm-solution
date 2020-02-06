@@ -54,7 +54,10 @@
     - 등차수열의 합 공식을 이용해서 풀었다.
     - for문으로 풀면 오래걸림(통과는 함...)
 13. [문자열 내 마음대로 정렬하기](https://programmers.co.kr/learn/courses/30/lessons/12915)
-    - [풀이]()
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/stringsortmyself/Solution.java)
+    - 좀 재미있어 보이는 문제다.
+    - comparator를 좀 더 재밌게 쓸 수 있었다.
+    - 강추문제!!
 14. [문자열 내 p와 y의 개수](https://programmers.co.kr/learn/courses/30/lessons/12916)
     - [풀이]()
 ---
