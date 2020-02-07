@@ -3,7 +3,7 @@ package dev.idion.programmers.stringdescendingorder;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.fail;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class SolutionTest {
     Solution solution;
@@ -14,7 +14,10 @@ class SolutionTest {
     }
 
     @Test
-    void solution() {
-        fail();
+    void testSolution1() {
+        String s = "Zbcdefg";
+        String expected = "gfedcbZ";
+        String actual = solution.solution(s);
+        assertEquals(expected, actual);
     }
 }
