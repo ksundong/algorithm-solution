@@ -63,7 +63,8 @@
     - uppercase나 lowercase를 사용하면 속도가 어떻게 변할지는 고민해봐야 할 것 같다.
     - 로직은 간단!
 15. [문자열 내림차순으로 배치하기](https://programmers.co.kr/learn/courses/30/lessons/12917)
-    - [풀이]()
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/stringdescendingorder/Solution.java)
+    - 람다식으로 했는데 너무 느린 것 같다.
 ---
 
 ## [LeetCode](https://leetcode.com/)
