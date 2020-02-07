@@ -65,6 +65,7 @@
 15. [문자열 내림차순으로 배치하기](https://programmers.co.kr/learn/courses/30/lessons/12917)
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/stringdescendingorder/Solution.java)
     - 람다식으로 했는데 너무 느린 것 같다.
+    - StringBuilder에 reverse 메소드가 있다는 것을 처음 알았다.
 ---
 
 ## [LeetCode](https://leetcode.com/)
