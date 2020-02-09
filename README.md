@@ -67,7 +67,9 @@
     - 람다식으로 했는데 너무 느린 것 같다.
     - StringBuilder에 reverse 메소드가 있다는 것을 처음 알았다.
 16. [문자열 다루기 기본](https://programmers.co.kr/learn/courses/30/lessons/12918)
-    - [풀이]()
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/basicstringcontrol/Solution.java)
+    - 처음엔 Pattern, Matcher를 이용해서 풀었는데, String에 matches라는 메소드가 제공되어서 수정했다.
+    - 엄청 짧게 바꾸었다. 정규식으로 풀면 엄청 짧다!
 17. [서울에서 김서방 찾기](https://programmers.co.kr/learn/courses/30/lessons/12919)
     - [풀이]()
 ---

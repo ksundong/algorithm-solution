@@ -28,4 +28,12 @@ class SolutionTest {
         boolean actual = solution.solution(s);
         assertEquals(expected, actual);
     }
+
+    @Test
+    void testSolution3() {
+        String s = "12345";
+        boolean expected = false;
+        boolean actual = solution.solution(s);
+        assertEquals(expected, actual);
+    }
 }
