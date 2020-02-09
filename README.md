@@ -66,6 +66,10 @@
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/stringdescendingorder/Solution.java)
     - 람다식으로 했는데 너무 느린 것 같다.
     - StringBuilder에 reverse 메소드가 있다는 것을 처음 알았다.
+16. [문자열 다루기 기본](https://programmers.co.kr/learn/courses/30/lessons/12918)
+    - [풀이]()
+17. [서울에서 김서방 찾기](https://programmers.co.kr/learn/courses/30/lessons/12919)
+    - [풀이]()
 ---
 
 ## [LeetCode](https://leetcode.com/)
