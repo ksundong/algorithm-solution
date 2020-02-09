@@ -71,7 +71,8 @@
     - 처음엔 Pattern, Matcher를 이용해서 풀었는데, String에 matches라는 메소드가 제공되어서 수정했다.
     - 엄청 짧게 바꾸었다. 정규식으로 풀면 엄청 짧다!
 17. [서울에서 김서방 찾기](https://programmers.co.kr/learn/courses/30/lessons/12919)
-    - [풀이]()
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/kimseobang/Solution.java)
+    - 다른 사람도 비슷하게 풀어서... 참고할것이 없었다.
 ---
 
 ## [LeetCode](https://leetcode.com/)

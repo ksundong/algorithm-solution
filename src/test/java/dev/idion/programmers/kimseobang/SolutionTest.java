@@ -16,7 +16,7 @@ class SolutionTest {
     @Test
     void testSolution1() {
         String[] seoul = {"Jane", "Kim"};
-        String expected = "김서방은 1에 있다.";
+        String expected = "김서방은 1에 있다";
         String actual = solution.solution(seoul);
         assertEquals(expected, actual);
     }
