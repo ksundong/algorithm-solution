@@ -74,7 +74,10 @@
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/kimseobang/Solution.java)
     - 다른 사람도 비슷하게 풀어서... 참고할것이 없었다.
 18. [소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/12921)
-    - [풀이]()
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/primenumber/Solution.java)
+    - 처음엔 n^2로 풀었는데 숫자 범위가 백만이어서 속도를 개선할 방법을 찾아보았습니다.
+    - 제곱근까지 loop를 돌린다는 내용은 그 이상은 절대 나누어 떨어질 수 없다는 뜻이었습니다.
+    - 에라토스테네스의 체라는 풀이 방식도 있어 적용해보았습니다.
 19. [수박수박수박수박수박수?](https://programmers.co.kr/learn/courses/30/lessons/12922)
     - [풀이]()
 ---
