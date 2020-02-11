@@ -73,6 +73,10 @@
 17. [서울에서 김서방 찾기](https://programmers.co.kr/learn/courses/30/lessons/12919)
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/kimseobang/Solution.java)
     - 다른 사람도 비슷하게 풀어서... 참고할것이 없었다.
+18. [소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/12921)
+    - [풀이]()
+19. [수박수박수박수박수박수?](https://programmers.co.kr/learn/courses/30/lessons/12922)
+    - [풀이]()
 ---
 
 ## [LeetCode](https://leetcode.com/)
