@@ -79,7 +79,9 @@
     - 제곱근까지 loop를 돌린다는 내용은 그 이상은 절대 나누어 떨어질 수 없다는 뜻이었습니다.
     - 에라토스테네스의 체라는 풀이 방식도 있어 적용해보았습니다.
 19. [수박수박수박수박수박수?](https://programmers.co.kr/learn/courses/30/lessons/12922)
-    - [풀이]()
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/watermelon/Solution.java)
+    - 예전에 풀었던 문젠데, 똑같이 풀었다..?
+    - 수박을 만자 입력해서 substring으로 푼 사람이 있던데, 정말 대단하다 ㅋㅋㅋ
 ---
 
 ## [LeetCode](https://leetcode.com/)
