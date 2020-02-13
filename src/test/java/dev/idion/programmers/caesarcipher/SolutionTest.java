@@ -39,4 +39,22 @@ class SolutionTest {
         String actual = solution.solution(s, n);
         assertThat(expected).isEqualTo(actual);
     }
+
+    @Test
+    void testCase4() {
+        String s = "z";
+        int n = 25;
+        String expected = "y";
+        String actual = solution.solution(s, n);
+        assertThat(expected).isEqualTo(actual);
+    }
+
+    @Test
+    void testCase5() {
+        String s = "AaZz";
+        int n = 25;
+        String expected = "ZzYy";
+        String actual = solution.solution(s, n);
+        assertThat(expected).isEqualTo(actual);
+    }
 }

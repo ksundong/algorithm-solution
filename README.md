@@ -86,7 +86,9 @@
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/parseint/Solution.java)
     - 음... 문제출제의도는 모르겠지만, 잘못입력되는 경우가 없다고 해서 parseInt를 사용하였다.
 21. [시저 암호](https://programmers.co.kr/learn/courses/30/lessons/12926)
-    - [풀이]()
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/caesarcipher/Solution.java)
+    - char 형에 대해서 깊게 생각하게 만드는 문제였다.
+    - 나중에 한 번 더 풀어보는게 좋을 것 같다.
 ---
 
 ## [LeetCode](https://leetcode.com/)
