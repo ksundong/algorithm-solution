@@ -90,7 +90,9 @@
     - char 형에 대해서 깊게 생각하게 만드는 문제였다.
     - 나중에 한 번 더 풀어보는게 좋을 것 같다.
 22. [약수의 합](https://programmers.co.kr/learn/courses/30/lessons/12928)
-    - [풀이]()
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/sumofmeasure/Solution.java)
+    - 약수는 생각해보니 2로 나누면 더 적은 loop를 돌 수 있었다.
+    - 나중에 다시 풀어봐야겠다.
 ---
 
 ## [LeetCode](https://leetcode.com/)
