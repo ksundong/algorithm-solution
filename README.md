@@ -89,6 +89,8 @@
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/caesarcipher/Solution.java)
     - char 형에 대해서 깊게 생각하게 만드는 문제였다.
     - 나중에 한 번 더 풀어보는게 좋을 것 같다.
+22. [약수의 합](https://programmers.co.kr/learn/courses/30/lessons/12928)
+    - [풀이]()
 ---
 
 ## [LeetCode](https://leetcode.com/)
