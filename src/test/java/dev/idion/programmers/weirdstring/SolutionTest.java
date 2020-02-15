@@ -28,4 +28,12 @@ class SolutionTest {
         String actual = solution.solution(s);
         assertThat(actual).isEqualTo(expected);
     }
+
+    @Test
+    void testSolution3() {
+        String s = "dion    want to be a developer";
+        String expected = "DiOn    WaNt To Be A DeVeLoPeR";
+        String actual = solution.solution(s);
+        assertThat(actual).isEqualTo(expected);
+    }
 }

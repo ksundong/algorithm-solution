@@ -94,7 +94,9 @@
     - 약수는 생각해보니 2로 나누면 더 적은 loop를 돌 수 있었다.
     - 나중에 다시 풀어봐야겠다.
 23. [이상한 문자 만들기](https://programmers.co.kr/learn/courses/30/lessons/12930)
-    - [풀이]()
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/weirdstring/Solution.java)
+    - 문제의 조건을 좀 더 읽는 습관을 들여야겠다고 생각했다. (처음 제출한 건 단어단위로 세는걸 안읽고 풀었다.)
+    - 가급적이면 split을 이용하기보다는 character array로 가능한 문제의 경우 char array를 쓰는게 나은 것 같다.
 ---
 
 ## [LeetCode](https://leetcode.com/)
