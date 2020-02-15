@@ -93,6 +93,8 @@
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/sumofmeasure/Solution.java)
     - 약수는 생각해보니 2로 나누면 더 적은 loop를 돌 수 있었다.
     - 나중에 다시 풀어봐야겠다.
+23. [이상한 문자 만들기](https://programmers.co.kr/learn/courses/30/lessons/12930)
+    - [풀이]()
 ---
 
 ## [LeetCode](https://leetcode.com/)
