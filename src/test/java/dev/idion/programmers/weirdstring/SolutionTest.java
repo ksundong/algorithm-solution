@@ -14,9 +14,17 @@ class SolutionTest {
     }
 
     @Test
-    void testSolution() {
+    void testSolution1() {
         String s = "try hello world";
         String expected = "TrY HeLlO WoRlD";
+        String actual = solution.solution(s);
+        assertThat(actual).isEqualTo(expected);
+    }
+
+    @Test
+    void testSolution2() {
+        String s = "dion want to be a developer";
+        String expected = "DiOn WaNt To Be A DeVeLoPeR";
         String actual = solution.solution(s);
         assertThat(actual).isEqualTo(expected);
     }
