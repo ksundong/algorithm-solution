@@ -100,6 +100,8 @@
 24. [자릿수 더하기](https://programmers.co.kr/learn/courses/30/lessons/12931)
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/digitplus/Solution.java)
     - 함정인 경우도 없고, 그냥 숫자의 자릿수를 어떻게 다루는지 생각하는 문제라고 생각된다.
+25. [자연수 뒤집어 배열로 만들기](https://programmers.co.kr/learn/courses/30/lessons/12932https://programmers.co.kr/learn/courses/30/lessons/12932)
+    - [풀이]()
 ---
 
 ## [LeetCode](https://leetcode.com/)
