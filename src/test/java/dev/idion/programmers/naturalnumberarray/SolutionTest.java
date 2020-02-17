@@ -3,7 +3,7 @@ package dev.idion.programmers.naturalnumberarray;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import static org.assertj.core.api.Assertions.fail;
+import static org.assertj.core.api.Assertions.assertThat;
 
 class SolutionTest {
     Solution solution;
@@ -15,6 +15,9 @@ class SolutionTest {
 
     @Test
     void testSolution1() {
-        fail("실패");
+        long n = 12345L;
+        int[] expected = {5, 4, 3, 2, 1};
+        int[] actual = solution.solution(n);
+        assertThat(actual).isEqualTo(expected);
     }
 }
