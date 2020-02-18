@@ -3,7 +3,7 @@ package dev.idion.programmers.integerdesc;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import static org.assertj.core.api.Assertions.fail;
+import static org.assertj.core.api.Assertions.assertThat;
 
 class SolutionTest {
     Solution solution;
@@ -15,6 +15,9 @@ class SolutionTest {
 
     @Test
     void solution() {
-        fail("실패");
+        long n = 118372L;
+        long expected = 873211L;
+        long actual = solution.solution(n);
+        assertThat(actual).isEqualTo(expected);
     }
 }
