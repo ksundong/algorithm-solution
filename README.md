@@ -108,6 +108,8 @@
     - 기존 풀이는 int형으로 받아서 참고할만한 것이 없었다.
     - Lambda와 Stream을 쓰는 풀이는 모르겠다. 함수형이 필요한 부분인가 싶다.
     - String으로 변환해서 Long.parseLong을 사용하는 풀이는 좋은 것 같기도 하고... 속도는 잘 나오나??
+27. [정수 제곱근 판별](https://programmers.co.kr/learn/courses/30/lessons/12934)
+    - [풀이]()
 ---
 
 ## [LeetCode](https://leetcode.com/)
