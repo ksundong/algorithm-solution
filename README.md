@@ -109,7 +109,10 @@
     - Lambda와 Stream을 쓰는 풀이는 모르겠다. 함수형이 필요한 부분인가 싶다.
     - String으로 변환해서 Long.parseLong을 사용하는 풀이는 좋은 것 같기도 하고... 속도는 잘 나오나??
 27. [정수 제곱근 판별](https://programmers.co.kr/learn/courses/30/lessons/12934)
-    - [풀이]()
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/integersquareroot/Solution.java)
+    - Math.sqrt 없이 하는 방법은 없을까? 고민했는데 for loop돌아야 할 것 같아서 별로 효율이 좋진 않을 것 같다.
+    - Math.sqrt를 까봤는데, Note that hardware sqrt instructions 라고 하는 것으로 보아 이게 제일 효율적인 것 같다.
+    - Math.pow를 쓰기보단 그냥 곱해서 비교를 해주었다.
 ---
 
 ## [LeetCode](https://leetcode.com/)

@@ -2,7 +2,11 @@ package dev.idion.programmers.integersquareroot;
 
 public class Solution {
     public long solution(long n) {
-        long answer = 0;
-        return answer;
+        long sqrt = (long) Math.sqrt(n);
+        if ((sqrt * sqrt) == n) {
+            sqrt++;
+            return sqrt * sqrt;
+        }
+        return -1;
     }
 }
