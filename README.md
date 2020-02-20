@@ -113,6 +113,8 @@
     - Math.sqrt 없이 하는 방법은 없을까? 고민했는데 for loop돌아야 할 것 같아서 별로 효율이 좋진 않을 것 같다.
     - Math.sqrt를 까봤는데, Note that hardware sqrt instructions 라고 하는 것으로 보아 이게 제일 효율적인 것 같다.
     - Math.pow를 쓰기보단 그냥 곱해서 비교를 해주었다.
+28. [제일 작은 수 제거하기](https://programmers.co.kr/learn/courses/30/lessons/12935)
+    - [풀이]()
 ---
 
 ## [LeetCode](https://leetcode.com/)
