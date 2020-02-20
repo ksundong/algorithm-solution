@@ -114,7 +114,9 @@
     - Math.sqrt를 까봤는데, Note that hardware sqrt instructions 라고 하는 것으로 보아 이게 제일 효율적인 것 같다.
     - Math.pow를 쓰기보단 그냥 곱해서 비교를 해주었다.
 28. [제일 작은 수 제거하기](https://programmers.co.kr/learn/courses/30/lessons/12935)
-    - [풀이]()
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/deleteminnum/Solution.java)
+    - O(n)으로 풀었다. Stream을 써서 푼 사람도 있었는데, 결국 느리더라...
+    - 최소값을 찾고, 그것만 빼고 넣어주는게 가장 빠를 것 같은데, 더 빠른 방법이 있을까?
 ---
 
 ## [LeetCode](https://leetcode.com/)
