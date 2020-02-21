@@ -118,7 +118,9 @@
     - O(n)으로 풀었다. Stream을 써서 푼 사람도 있었는데, 결국 느리더라...
     - 최소값을 찾고, 그것만 빼고 넣어주는게 가장 빠를 것 같은데, 더 빠른 방법이 있을까?
 29. [짝수와 홀수](https://programmers.co.kr/learn/courses/30/lessons/12937)
-    - [풀이]()
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/evenandodd/Solution.java)
+    - 간단한 문젠데, 코드를 어떻게 하면 더 짧게 할 수 있는지도 고민해보는 게 좋은 문제라고 생각한다.
+    - 왜 삼항연산자를 쓸 생각을 안했지?
 ---
 
 ## [LeetCode](https://leetcode.com/)
