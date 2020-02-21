@@ -117,6 +117,8 @@
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/deleteminnum/Solution.java)
     - O(n)으로 풀었다. Stream을 써서 푼 사람도 있었는데, 결국 느리더라...
     - 최소값을 찾고, 그것만 빼고 넣어주는게 가장 빠를 것 같은데, 더 빠른 방법이 있을까?
+29. [짝수와 홀수](https://programmers.co.kr/learn/courses/30/lessons/12937)
+    - [풀이]()
 ---
 
 ## [LeetCode](https://leetcode.com/)
