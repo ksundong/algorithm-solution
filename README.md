@@ -121,6 +121,8 @@
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/evenandodd/Solution.java)
     - 간단한 문젠데, 코드를 어떻게 하면 더 짧게 할 수 있는지도 고민해보는 게 좋은 문제라고 생각한다.
     - 왜 삼항연산자를 쓸 생각을 안했지?
+30. [최대공약수와 최소공배수](https://programmers.co.kr/learn/courses/30/lessons/12940)
+    - [풀이]()
 ---
 
 ## [LeetCode](https://leetcode.com/)
