@@ -122,7 +122,9 @@
     - 간단한 문젠데, 코드를 어떻게 하면 더 짧게 할 수 있는지도 고민해보는 게 좋은 문제라고 생각한다.
     - 왜 삼항연산자를 쓸 생각을 안했지?
 30. [최대공약수와 최소공배수](https://programmers.co.kr/learn/courses/30/lessons/12940)
-    - [풀이]()
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/gcfandlcm/Solution.java)
+    - 재귀로 푸는 풀이는 생각하지 못했는데, 수학적으로 생각한 것인지 궁금했다.
+    - 최대공약수 최소공배수를 프로그래밍 언어로 푸니 상당히 까다롭다고 느껴졌다.
 ---
 
 ## [LeetCode](https://leetcode.com/)
