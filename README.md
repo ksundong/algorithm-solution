@@ -126,7 +126,10 @@
     - 재귀로 푸는 풀이는 생각하지 못했는데, 수학적으로 생각한 것인지 궁금했다.
     - 최대공약수 최소공배수를 프로그래밍 언어로 푸니 상당히 까다롭다고 느껴졌다.
 31. [콜라츠 추측](https://programmers.co.kr/learn/courses/30/lessons/12943)
-    - [풀이]()
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/collatzconjecture/Solution.java)
+    - 삼항연산자를 의도적으로 사용해보았다. if-else에 비해 가독성이 좋아졌다.
+    - while Loop냐 for Loop냐의 관점 차이는 문제의 조건을 어떻게 해석하느냐에 따라 다른 것 같다. 나같은 경우엔 1이 되는 경우가 중요하다 판단했다.
+    - 테스트 케이스가 친절해서 오류를 사전에 알 수 있었다. 이 문제는 자료형도 신경써야함을 알려주니까 좋은 문제라고 생각한다.
 ---
 
 ## [LeetCode](https://leetcode.com/)
