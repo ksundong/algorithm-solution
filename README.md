@@ -125,6 +125,8 @@
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/gcfandlcm/Solution.java)
     - 재귀로 푸는 풀이는 생각하지 못했는데, 수학적으로 생각한 것인지 궁금했다.
     - 최대공약수 최소공배수를 프로그래밍 언어로 푸니 상당히 까다롭다고 느껴졌다.
+31. [콜라츠 추측](https://programmers.co.kr/learn/courses/30/lessons/12943)
+    - [풀이]()
 ---
 
 ## [LeetCode](https://leetcode.com/)
