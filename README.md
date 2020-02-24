@@ -131,7 +131,8 @@
     - while Loop냐 for Loop냐의 관점 차이는 문제의 조건을 어떻게 해석하느냐에 따라 다른 것 같다. 나같은 경우엔 1이 되는 경우가 중요하다 판단했다.
     - 테스트 케이스가 친절해서 오류를 사전에 알 수 있었다. 이 문제는 자료형도 신경써야함을 알려주니까 좋은 문제라고 생각한다.
 32. [평균 구하기](https://programmers.co.kr/learn/courses/30/lessons/12944)
-    - [풀이]()
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/getaverage/Solution.java)
+    - 별로 좋지 않은 문제
 ---
 
 ## [LeetCode](https://leetcode.com/)
