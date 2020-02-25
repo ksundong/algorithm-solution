@@ -133,6 +133,8 @@
 32. [평균 구하기](https://programmers.co.kr/learn/courses/30/lessons/12944)
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/getaverage/Solution.java)
     - 별로 좋지 않은 문제
+33. [하샤드 수](https://programmers.co.kr/learn/courses/30/lessons/12947)
+    - [풀이]()
 ---
 
 ## [LeetCode](https://leetcode.com/)
