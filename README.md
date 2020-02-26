@@ -137,7 +137,8 @@
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/harshadnumber/Solution.java)
     - 숫자를 한 자리씩 분리하는 기법말고는 그닥 좋지않은 문제...
 34. [핸드폰 번호 가리기](https://programmers.co.kr/learn/courses/30/lessons/12948)
-    - [풀이]()
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/maskingphonenumber/Solution.java)
+    - 정규식을 사용하려고 했는데, 비효율적인 것 같아서 그냥 char배열로 만들어서 풀었다.
 ---
 
 ## [LeetCode](https://leetcode.com/)
