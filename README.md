@@ -144,7 +144,8 @@
     - 문제 조건이 명확하지 않아서 별로였다.
     - 신기한건, length2를 미리 선언해 주는게 더 느리다는점... 편차가 어느정도 있겠지만, 마지막 조건의 경우 5ms 차이가 났다.
 36. [x만큼 간격이 있는 n개의 숫자](https://programmers.co.kr/learn/courses/30/lessons/12954)
-    - [풀이]()
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/xdistancenumbers/Solution.java)
+    - 생각할 여지가 별로 없는 문제였다.
 ---
 
 ## [LeetCode](https://leetcode.com/)
