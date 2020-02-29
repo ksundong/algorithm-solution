@@ -146,6 +146,8 @@
 36. [x만큼 간격이 있는 n개의 숫자](https://programmers.co.kr/learn/courses/30/lessons/12954)
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/xdistancenumbers/Solution.java)
     - 생각할 여지가 별로 없는 문제였다.
+37. [직사각형 별찍기](https://programmers.co.kr/learn/courses/30/lessons/12969)
+    - [풀이]()
 ---
 
 ## [LeetCode](https://leetcode.com/)
