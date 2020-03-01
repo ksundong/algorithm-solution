@@ -150,7 +150,8 @@
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/makerectangle/Solution.java)
     - 이런 문제가 왜 있을까... 테스트케이스는 귀찮아서 만들지 않았다.
 38. [예산](https://programmers.co.kr/learn/courses/30/lessons/12982)
-    - [풀이]()
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/budget/Solution.java)
+    - 괜찮은 문제였다. nlogn이 최선의 방법이라고 생각한다.
 ---
 
 ## [LeetCode](https://leetcode.com/)
