@@ -153,7 +153,11 @@
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/budget/Solution.java)
     - 괜찮은 문제였다. nlogn이 최선의 방법이라고 생각한다.
 39. [비밀지도](https://programmers.co.kr/learn/courses/30/lessons/17681)
-    - [풀이]()
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/secretmap/Solution.java)
+    - 출력에 문제가 있어서 테스트케이스가 제대로 동작하지 않았다. 덕분에 공백이 중복되면 제거하는 코드를 넣어야 하는줄 알고 문제를 다시 읽어봤다.
+    - 그건 논외로 치고 문제자체는 괜찮았다. binaryString을 사용하는 풀이가 있었는데, 내 풀이에 약 10배이상이 걸렸다. 왜냐면 GC가 동작하기 때문이라 생각한다.
+    - 재귀함수로 푸는 풀이도 있는데, 괜찮은 것 같다. 일단 문제 조건 자체가 16자리까지 받으니까...
+    - 비트연산, 비트 시프트연산으로 풀이한 것을 봤는데, 잘 안써서 그런가 어떻게 동작할지 예측이 되지 않았다. 더 공부해야겠다.
 ---
 
 ## [LeetCode](https://leetcode.com/)
