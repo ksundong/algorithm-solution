@@ -152,6 +152,8 @@
 38. [예산](https://programmers.co.kr/learn/courses/30/lessons/12982)
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/budget/Solution.java)
     - 괜찮은 문제였다. nlogn이 최선의 방법이라고 생각한다.
+39. [비밀지도](https://programmers.co.kr/learn/courses/30/lessons/17681)
+    - [풀이]()
 ---
 
 ## [LeetCode](https://leetcode.com/)
