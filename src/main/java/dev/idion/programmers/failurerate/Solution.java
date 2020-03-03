@@ -22,8 +22,12 @@ public class Solution {
         // 전체 user 수 구해서 Stage에 통과한 user수 넣기
         int userCount = users.length;
         for (Stage stage : stages) {
-            stage.userCount = userCount;
-            userCount -= stage.count;
+            if (stage.count == 0 || userCount == 0) {
+                stage.failureRate = 0.0;
+            } else {
+                stage.failureRate = (double) stage.count / userCount;
+                userCount -= stage.count;
+            }
         }
 
         // stage 정렬
@@ -40,7 +44,7 @@ public class Solution {
     class Stage implements Comparable {
         int stageNumber;
         int count;
-        int userCount;
+        double failureRate;
 
         public Stage(int stage) {
             this.stageNumber = stage;
@@ -49,12 +53,10 @@ public class Solution {
         @Override
         public int compareTo(Object o) {
             Stage otherStage = (Stage) o;
-            // 큰게 먼저와야하므로... e.g.) 3 / 7 < 2 / 4 ==> 3 * 4 < 2 * 7 인데, 내림차순 정렬을 위해 식을 반대로 적용(큰 것이 양수 값)
-            long cmp = (long) otherStage.count * this.userCount - (long) this.count * otherStage.userCount;
-            if (cmp == 0) {
-                return this.stageNumber - otherStage.stageNumber;
+            if (this.failureRate == otherStage.failureRate) {
+                return Integer.compare(this.stageNumber, otherStage.stageNumber);
             }
-            return (int) cmp;
+            return -Double.compare(this.failureRate, otherStage.failureRate);
         }
     }
 }

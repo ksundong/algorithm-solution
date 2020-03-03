@@ -159,9 +159,10 @@
     - 재귀함수로 푸는 풀이도 있는데, 괜찮은 것 같다. 일단 문제 조건 자체가 16자리까지 받으니까...
     - 비트연산, 비트 시프트연산으로 풀이한 것을 봤는데, 잘 안써서 그런가 어떻게 동작할지 예측이 되지 않았다. 더 공부해야겠다.
 40. [실패율](https://programmers.co.kr/learn/courses/30/lessons/42889)
-    - [풀이]()
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/failurerate/Solution.java)
     - 잘 안풀려서 풀이를 찾아봤는데 괜찮은 풀이가 없어서 다시 풀었다...
     - 23, 24번 케이스에서 실패하는데 일단, 여기까지 한 걸 올려둔다.
+    - double 형으로 했더니 제대로 동작했다. overflow 문제일까?
 ---
 
 ## [LeetCode](https://leetcode.com/)
