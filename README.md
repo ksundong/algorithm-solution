@@ -164,7 +164,12 @@
     - 23, 24번 케이스에서 실패하는데 일단, 여기까지 한 걸 올려둔다.
     - double 형으로 했더니 제대로 동작했다. overflow 문제일까?
 41. [다트 게임](https://programmers.co.kr/learn/courses/30/lessons/17682)
-    - [풀이]()
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/dartgame/Solution.java)
+    - 정규표현식으로 풀어보았다.
+    - 수량자로는 그룹핑이 안돼서 각각 써주었다.
+    - `find()`를 써줘야 하는걸 처음 알았다. `group(num)` 이 `num` 이 0이면 전체 다가져오는거였다.
+    - 생각보단 쉽게 풀어낸 것 같은데, 나중에 풀면 더 쉽게 풀 수 있지 않을까?
+    - flow 때문에 코드가 세로로 길어져서 좀 슬프다.
 ---
 
 ## [LeetCode](https://leetcode.com/)
