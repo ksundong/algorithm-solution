@@ -34,4 +34,22 @@ class BinarySearchTest {
         int actual = binarySearch.searchRecursive(arr, target, firstIndex, lastIndex);
         assertThat(actual).isEqualTo(expected);
     }
+
+    @Test
+    void testSearch1() {
+        int[] arr = {1, 3, 5, 7, 8, 13, 23, 34};
+        int target = 23;
+        int expected = 6;
+        int actual = binarySearch.search(arr, target);
+        assertThat(actual).isEqualTo(expected);
+    }
+
+    @Test
+    void testSearch2() {
+        int[] arr = {1, 3, 5, 7, 8, 13, 23, 34};
+        int target = 43;
+        int expected = -1;
+        int actual = binarySearch.search(arr, target);
+        assertThat(actual).isEqualTo(expected);
+    }
 }
