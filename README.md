@@ -223,5 +223,6 @@
 8. 트리의 순회에 대해 학습한다.
 9. 힙이 무엇인지와 힙 정렬에 대해 학습한다.
 10. 이진 탐색을 구현해본다.
+    - [이진 탐색](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/thinking/search/BinarySearch.java)
     - 재귀적으로 구현해본다.
     - 반복문으로 구현해본다.
