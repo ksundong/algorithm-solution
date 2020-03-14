@@ -24,6 +24,7 @@ public class QuickSort {
             }
         }
 
+        // pivot swap
         int temp = arr[firstIndex];
         arr[firstIndex] = arr[k];
         arr[k] = temp;
