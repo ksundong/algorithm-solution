@@ -230,5 +230,6 @@
 11. 재귀 공부
     - [입력된 배열의 합을 구하는 재귀함수](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/thinking/recursion/ArraySum.java)
       재귀적으로 생각하기가 쉽지가 않았다..! 재귀에 대한 연습을 많이 해야할 것 같다.
+      꼬리 재귀로 바꾸어 보았다!
     - [입력된 리스트의 원소의 갯수를 구하는 재귀함수]()
     - [입력된 리스트의 가장 큰 수를 찾는 재귀함수]()

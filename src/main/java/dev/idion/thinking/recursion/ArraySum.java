@@ -2,14 +2,13 @@ package dev.idion.thinking.recursion;
 
 public class ArraySum {
     public int sum(int[] arr) {
-        return sum(arr, 0);
+        return sum(arr, 0, 0);
     }
 
-    private int sum(int[] arr, int position) {
+    private int sum(int[] arr, int position, int sum) {
         if (arr.length == position) {
-            return 0;
+            return sum;
         }
-        int integer = arr[position];
-        return integer + sum(arr, position + 1);
+        return sum(arr, position + 1, sum + arr[position]);
     }
 }
