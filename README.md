@@ -234,5 +234,5 @@
     - [입력된 리스트의 원소의 갯수를 구하는 재귀함수](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/thinking/recursion/ListCount.java)  
       꼬리재귀로 해결해보았다!  
     - [입력된 리스트의 가장 큰 수를 찾는 재귀함수](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/thinking/recursion/LargestNumber.java)
-    - [팩토리얼을 구하는 재귀함수]()
+    - [팩토리얼을 구하는 재귀함수](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/thinking/recursion/Factorial.java)
       꼬리재귀로 해결해보았다!
