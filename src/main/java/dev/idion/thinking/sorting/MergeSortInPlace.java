@@ -2,7 +2,7 @@ package dev.idion.thinking.sorting;
 
 import java.util.Arrays;
 
-public class MergeSort {
+public class MergeSortInPlace {
     public static void main(String[] args) {
         int[] arr = {2, 9, 7, 5, 3, 1, 6, 2};
         sort(arr);
