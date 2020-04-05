@@ -191,6 +191,8 @@
    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/leetcode/singlenumber/Solution.java)
    - 처음에 HashMap을 이용해서 해결했는데 21ms가 나왔다.
    - 같은 수가 2번까지만 나올 수 있으므로, 비트 xor연산을 하면 같은 수는 0이되고, 하나인 수만 남게되어 가장빠른 솔루션이다.😮
+6. [Palindrome Number]()
+   - [풀이]()
 
 ---
 
