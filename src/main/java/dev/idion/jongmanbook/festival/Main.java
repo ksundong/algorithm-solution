@@ -11,19 +11,26 @@ public class Main {
         for (int i = 0; i < repeat; i++) {
             int teams = Integer.parseInt(sc.nextLine().split(" ")[1]);
             String[] costs = sc.nextLine().split(" ");
+            int days = costs.length;
+
+            int[] arr = new int[days];
+            for (int j = 0; j < days; j++) {
+                arr[j] = Integer.parseInt(costs[j]);
+            }
+
+            // prefix sum
+            int[] prefixSum = new int[days];
+            prefixSum[0] = arr[0];
+            for (int j = 1; j < days; j++) {
+                prefixSum[j] = prefixSum[j - 1] + arr[j];
+            }
 
             double avgCost = 100;
-
             // n개의 팀부터 모든 날까지
-            for (int j = teams; j < costs.length; j++) {
-                // 부분합 구하기
-                int minSum = 100 * j;
-                for (int k = 0; k < costs.length - j; k++) {
-                    int sum = 0;
-                    for (int l = 0; l < j; l++) {
-                        sum += Integer.parseInt(costs[l]);
-                    }
-                    minSum = Math.min(sum, minSum);
+            for (int j = teams; j < days; j++) {
+                int minSum = prefixSum[j - 1];
+                for (int k = 1; k < days - j; k++) {
+                    minSum = Math.min(prefixSum[j + k - 1] - prefixSum[k - 1], minSum);
                 }
                 double tmpAvgCost = (double) minSum / j;
                 avgCost = Math.min(avgCost, tmpAvgCost);
