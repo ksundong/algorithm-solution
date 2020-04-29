@@ -14,7 +14,7 @@ class MainTest {
     @Test
     void main() {
         String input = "2\n6 3\n1 2 3 1 2 3\n6 2\n1 2 3 1 2 3";
-        String expected = "1.75000000000\n1.50000000000";
+        String expected = "1.75000000000\n1.50000000000\n";
         InputStream in = new ByteArrayInputStream(input.getBytes());
         ByteArrayOutputStream out = new ByteArrayOutputStream();
         System.setOut(new PrintStream(out));
