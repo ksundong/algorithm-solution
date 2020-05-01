@@ -213,8 +213,10 @@
 ## 종만북
 
 1. [록 페스티벌](https://algospot.com/judge/problem/read/FESTIVAL)
-   - [풀이]()
-   - 
+   - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/jongmanbook/festival/Main.java)
+   - 일단 무식하게 풀어보았다. 당연히 시간초과가 났다.😭
+   - n^3을 n^2이라도 줄여보고 싶어서, 찾아보았다. Prefix Sum을 이용하면 될 것 같아서 적용했었다.
+   - 근데 오답이다. 더 고민해봐야겠다.
 
 ---
 
