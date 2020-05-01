@@ -250,3 +250,15 @@
     - [입력된 리스트의 가장 큰 수를 찾는 재귀함수](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/thinking/recursion/LargestNumber.java)
     - [팩토리얼을 구하는 재귀함수](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/thinking/recursion/Factorial.java)
       꼬리재귀로 해결해보았다!
+
+---
+
+## SQL
+
+### [프로그래머스](https://programmers.co.kr)
+
+1. [최댓값 구하기](https://programmers.co.kr/learn/courses/30/lessons/59415)
+   - [풀이]()
+   - 예제의 정답 부분이 Alias를 이용해야 할 것 같아서 Alias를 이용했다.
+   - 하나의 결과만 요구하므로 LIMIT을 사용하고자 했다.
+   - 가장 최근이라고 하였으므로, DATETIME의 ORDER BY를 이용하면 될 것 같았다.
