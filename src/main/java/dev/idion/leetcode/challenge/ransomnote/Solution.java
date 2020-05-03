@@ -1,28 +1,18 @@
 package dev.idion.leetcode.challenge.ransomnote;
 
-import java.util.HashMap;
-import java.util.Map;
-
 class Solution {
     public boolean canConstruct(String ransomNote, String magazine) {
-        if (ransomNote.equals("")) { return true; }
-        Map<String, Integer> magazineMap = new HashMap<>();
-
-        for (String m : magazine.split("")) {
-            magazineMap.put(m, magazineMap.getOrDefault(m, 0) + 1);
+        if (magazine.length() < ransomNote.length()) { // magazine이 부족하면 당연히 불가
+            return false;
         }
 
-
-        for (String ransom : ransomNote.split("")) {
-            if (!magazineMap.containsKey(ransom)) {
+        int[] caps = new int[26]; // caps는 마지막으로 탐색된 c의 위치를 저장
+        for (char c : ransomNote.toCharArray()) {
+            int index = magazine.indexOf(c, caps[c - 97]); // c가 magazine에 존재하는지 확인.
+            if (index == -1) { // 못찾으면 false
                 return false;
             }
-
-            int ransomCount = magazineMap.get(ransom);
-            if (ransomCount == 0) {
-                return false;
-            }
-            magazineMap.put(ransom, ransomCount - 1);
+            caps[c - 97] = index + 1; // 마지막으로 탐색된 위치 다음을 저장
         }
         return true;
     }

@@ -201,8 +201,11 @@
 #### May
 
 1. [Ransom Note](https://leetcode.com/explore/featured/card/may-leetcoding-challenge/534/week-1-may-1st-may-7th/3318/)
-  - [풀이]()
+  - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/leetcode/challenge/ransomnote/Solution.java)
   - 처음엔 HashMap을 이용해서 풀었다. 53ms가 걸려서 이 방법은 느리다고 생각됐다.
+  - LeetCode에서 제출된 답안중 0ms가 걸린 Solution을 분석했다.
+  - 나와의 차이는 HashMap을 굳이 안쓴 점. split으로 나누지 않고 CharArray를 사용한 점. indexOf를 활용한 점.
+  - 그냥 너무 잘함...
 
 ---
 
