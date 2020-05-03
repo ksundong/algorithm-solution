@@ -196,6 +196,14 @@
    - String으로 변환하는 솔루션을 사용했다. 역시 속도는 느리다... Runtime: 13 ms, faster than 12.68%
    - Solution을 따라했다. 최대한 코드를 이해하는데 주안점을 두었다. Runtime: 6 ms, faster than 100.00%
 
+### [LeetCode Challenge](https://leetcode.com/explore/)
+
+#### May
+
+1. [Ransom Note](https://leetcode.com/explore/featured/card/may-leetcoding-challenge/534/week-1-may-1st-may-7th/3318/)
+  - [풀이]()
+  - 처음엔 HashMap을 이용해서 풀었다. 53ms가 걸려서 이 방법은 느리다고 생각됐다.
+
 ---
 
 ## [BAEKJOON](https://www.acmicpc.net/)
