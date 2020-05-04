@@ -208,7 +208,7 @@
   - 그냥 너무 잘함...
   
 2. [Number Complement](https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/534/week-1-may-1st-may-7th/3319/)
-  - [풀이]()
+  - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/leetcode/challenge/numbercomplement/Solution.java)
   - 비트연산을 활용해보고 싶었다.
   - 처음에 int 전체를 byte로 바꾸는 방법을 썼는데, 이건 보수를 구하는 방법이라... 음수가 나와버렸다.
   - 결국 솔루션을 찾아봤다. 마지막 비트를 바로 더하는게 핵심인듯
