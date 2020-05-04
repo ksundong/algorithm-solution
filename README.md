@@ -206,6 +206,13 @@
   - LeetCode에서 제출된 답안중 0ms가 걸린 Solution을 분석했다.
   - 나와의 차이는 HashMap을 굳이 안쓴 점. split으로 나누지 않고 CharArray를 사용한 점. indexOf를 활용한 점.
   - 그냥 너무 잘함...
+  
+2. [Number Complement](https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/534/week-1-may-1st-may-7th/3319/)
+  - [풀이]()
+  - 비트연산을 활용해보고 싶었다.
+  - 처음에 int 전체를 byte로 바꾸는 방법을 썼는데, 이건 보수를 구하는 방법이라... 음수가 나와버렸다.
+  - 결국 솔루션을 찾아봤다. 마지막 비트를 바로 더하는게 핵심인듯
+  - 그리고 0인 경우는 특이케이스라 바로 처리해줘야했다.
 
 ---
 
