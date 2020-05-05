@@ -206,13 +206,21 @@
   - LeetCode에서 제출된 답안중 0ms가 걸린 Solution을 분석했다.
   - 나와의 차이는 HashMap을 굳이 안쓴 점. split으로 나누지 않고 CharArray를 사용한 점. indexOf를 활용한 점.
   - 그냥 너무 잘함...
-  
+
 2. [Number Complement](https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/534/week-1-may-1st-may-7th/3319/)
   - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/leetcode/challenge/numbercomplement/Solution.java)
   - 비트연산을 활용해보고 싶었다.
   - 처음에 int 전체를 byte로 바꾸는 방법을 썼는데, 이건 보수를 구하는 방법이라... 음수가 나와버렸다.
   - 결국 솔루션을 찾아봤다. 마지막 비트를 바로 더하는게 핵심인듯
   - 그리고 0인 경우는 특이케이스라 바로 처리해줘야했다.
+
+3. [First Unique Character in a String](https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/534/week-1-may-1st-may-7th/3320/)
+  - [풀이]()
+  - 반복되지 않는 Character중 가장 앞에 있는 것의 Index를 반환한다.
+  - 없으면 -1을 반환해야 한다.
+  - 모두 소문자로 가정한다.
+  - 일단 CharArray를 사용하면 될 것 같다.
+  - 4ms가 나왔다.
 
 ---
 
