@@ -215,12 +215,14 @@
   - 그리고 0인 경우는 특이케이스라 바로 처리해줘야했다.
 
 3. [First Unique Character in a String](https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/534/week-1-may-1st-may-7th/3320/)
-  - [풀이]()
+  - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/leetcode/challenge/firstuniquechar/Solution.java)
   - 반복되지 않는 Character중 가장 앞에 있는 것의 Index를 반환한다.
   - 없으면 -1을 반환해야 한다.
   - 모두 소문자로 가정한다.
   - 일단 CharArray를 사용하면 될 것 같다.
   - 4ms가 나왔다.
+  - 굳이 charArray로 바꿀 필요가 없는 것 같다. 입력의 범위가 소문자 'a' - 'z'이므로 for문을 돌릴 수 있다.
+  - 1ms가 나왔다. 사실 솔루션을 보고 했다. 어떻게 lastIndex랑 같은지 비교할 생각을 했지...
 
 ---
 
