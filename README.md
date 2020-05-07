@@ -225,7 +225,7 @@
   - 1ms가 나왔다. 사실 솔루션을 보고 했다. 어떻게 lastIndex랑 같은지 비교할 생각을 했지...
 
 4. [Majority Element](https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/534/week-1-may-1st-may-7th/3321/)
-  - [풀이]()
+  - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/leetcode/challenge/majorityelement/Solution.java)
   - array의 크기는 n일 때, n/2 보다 많이 등장하는 element가 majority element이다.
   - 빈 배열은 등장하지 않으며, majority element는 반드시 존재한다.
   - 나오는 것을 일일이 세야할 것 같다.
