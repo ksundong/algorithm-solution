@@ -7,6 +7,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         int repeat = Integer.parseInt(sc.nextLine());
+        double[] result = new double[repeat];
 
         for (int i = 0; i < repeat; i++) {
             int teams = Integer.parseInt(sc.nextLine().split(" ")[1]);
@@ -25,17 +26,20 @@ public class Main {
                 prefixSum[j] = prefixSum[j - 1] + arr[j];
             }
 
-            double avgCost = 100;
+            double avgCost = Double.MAX_VALUE;
             // n개의 팀부터 모든 날까지
             for (int j = teams; j < days; j++) {
                 int minSum = prefixSum[j - 1];
                 for (int k = 1; k < days - j; k++) {
                     minSum = Math.min(prefixSum[j + k - 1] - prefixSum[k - 1], minSum);
                 }
-                double tmpAvgCost = (double) minSum / j;
+                double tmpAvgCost = (double) minSum / (double) j;
                 avgCost = Math.min(avgCost, tmpAvgCost);
             }
-            System.out.printf("%.11f%n", avgCost);
+            result[i] = avgCost;
+        }
+        for (double v : result) {
+            System.out.printf("%.11f%n", v);
         }
 
         sc.close();
