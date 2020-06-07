@@ -170,11 +170,16 @@
     - `find()`를 써줘야 하는걸 처음 알았다. `group(num)` 이 `num` 이 0이면 전체 다가져오는거였다.
     - 생각보단 쉽게 풀어낸 것 같은데, 나중에 풀면 더 쉽게 풀 수 있지 않을까?
     - flow 때문에 코드가 세로로 길어져서 좀 슬프다.
-42. [다리를 지나는 트럭](https://programmers.co.kr/learn/courses/30/lessons/42583)
-    - [풀이]()
+42. [다리를 지나는 트럭](https://programmers.co.kr/learn/courses/30/lessons/42583) {다시 풀어볼 문제}
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/truckpassingbridge/Solution.java)
     - 여러 대의 트럭이 **일차선** 다리를 **정해진** 순으로 건너려 한다. => Queue 자료구조
     - 모든 트럭이 다리를 건너려면 최소 몇 초가 걸리는지 알아야 한다.
     - 트럭은 1초에 1만큼 움직인다. 다리의 길이는 bridgeLength 값이고, 무게는 weight만큼 견딘다.
+    - 이 문제는 큐를 활용하는 문제지만, 객체지향적으로 풀어볼 문제였다.
+    - 나는 접근을 큐만 사용해서 저장하고 꺼내는 방식만 사용하였고, 시간을 전혀 고려하지 못했다.
+    - 대부분의 풀이는 시간이나 움직임을 계산했고, 이런 방식을 잘 생각하지 못했던 것 같다.
+    - [프로그래머스 풀이](https://programmers.co.kr/learn/courses/30/lessons/42583/solution_groups?language=java)
+    - 부족함을 많이 느낀 문제였다. 자주자주 풀어보자.
 ---
 
 ## [LeetCode](https://leetcode.com/)
