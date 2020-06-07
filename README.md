@@ -170,6 +170,8 @@
     - `find()`를 써줘야 하는걸 처음 알았다. `group(num)` 이 `num` 이 0이면 전체 다가져오는거였다.
     - 생각보단 쉽게 풀어낸 것 같은데, 나중에 풀면 더 쉽게 풀 수 있지 않을까?
     - flow 때문에 코드가 세로로 길어져서 좀 슬프다.
+42. [다리를 지나는 트럭](https://programmers.co.kr/learn/courses/30/lessons/42583)
+    - [풀이]()
 ---
 
 ## [LeetCode](https://leetcode.com/)
