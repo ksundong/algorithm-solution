@@ -172,6 +172,9 @@
     - flow 때문에 코드가 세로로 길어져서 좀 슬프다.
 42. [다리를 지나는 트럭](https://programmers.co.kr/learn/courses/30/lessons/42583)
     - [풀이]()
+    - 여러 대의 트럭이 **일차선** 다리를 **정해진** 순으로 건너려 한다. => Queue 자료구조
+    - 모든 트럭이 다리를 건너려면 최소 몇 초가 걸리는지 알아야 한다.
+    - 트럭은 1초에 1만큼 움직인다. 다리의 길이는 bridgeLength 값이고, 무게는 weight만큼 견딘다.
 ---
 
 ## [LeetCode](https://leetcode.com/)
