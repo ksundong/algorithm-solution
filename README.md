@@ -254,6 +254,12 @@
    - 직접 Tree 구조를 만들어보기로 했다.
    - 테스트 코드는 통과했다.
    - 백준에 제출한 결과 76ms가 나왔다.
+3. [A/B](https://www.acmicpc.net/problem/1008)
+  - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/baekjoon/adivideb/Main.java)
+  - 브론즈 4 문제였다. 출력 예제를 보지 않고 그냥 만들었다가 틀려버렸다.
+  - 이 문제의 핵심은 나누기 연산을 했을 때, 소숫점 몇 번째 자리까지 표시할 것인지가 핵심인 것 같다.
+  - `System.out.printf("%.#f%n", 표시할 수 혹은 연산);`
+  - 여기서 #은 표시할 자릿수를 의미한다.
 
 ## 종만북
 
