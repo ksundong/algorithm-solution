@@ -260,7 +260,13 @@
   - 이 문제의 핵심은 나누기 연산을 했을 때, 소숫점 몇 번째 자리까지 표시할 것인지가 핵심인 것 같다.
   - `System.out.printf("%.#f%n", 표시할 수 혹은 연산);`
   - 여기서 #은 표시할 자릿수를 의미한다.
-
+4. [사칙연산](https://www.acmicpc.net/problem/10869)
+  - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/baekjoon/fourarithmetic/Main.java)
+  - 브론즈 5 문제였는데 좀 많이 틀렸다.
+  - int 연산하고 나서 절대 char형을 그냥 더하지말고 그냥 String형을 붙이자. char형이 정수값으로 계산이 되어서 문제를 틀리고 있었다.
+  - 가급적이면 테스트 코드를 작성해서 원하는 대로 동작하는지 확인하는 습관을 다시금 들이자.
+  - 백준풀이는 템플릿을 만들어 놓는 것이 좋을 것 같다.
+  
 ## 종만북
 
 1. [록 페스티벌](https://algospot.com/judge/problem/read/FESTIVAL)
