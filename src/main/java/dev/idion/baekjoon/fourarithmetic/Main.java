@@ -8,16 +8,10 @@ public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-        String[] numStrs = br.readLine().split(" ");
-        int[] nums = {Integer.parseInt(numStrs[0]), Integer.parseInt(numStrs[1])};
+        String[] numStr = br.readLine().split(" ");
+        int[] nums = {Integer.parseInt(numStr[0]), Integer.parseInt(numStr[1])};
 
-        StringBuilder sb = new StringBuilder();
-        sb.append((nums[0] + nums[1]) + "\n");
-        sb.append((nums[0] - nums[1]) + "\n");
-        sb.append((nums[0] * nums[1]) + "\n");
-        sb.append((nums[0] / nums[1]) + "\n");
-        sb.append((nums[0] % nums[1]));
-
-        System.out.print(sb.toString());
+        String sb = (nums[0] + nums[1]) + "\n" + (nums[0] - nums[1]) + "\n" + nums[0] * nums[1] + "\n" + nums[0] / nums[1] + "\n" + (nums[0] % nums[1]);
+        System.out.print(sb);
     }
 }
