@@ -266,9 +266,13 @@
   - int 연산하고 나서 절대 char형을 그냥 더하지말고 그냥 String형을 붙이자. char형이 정수값으로 계산이 되어서 문제를 틀리고 있었다.
   - 가급적이면 테스트 코드를 작성해서 원하는 대로 동작하는지 확인하는 습관을 다시금 들이자.
   - 백준풀이는 템플릿을 만들어 놓는 것이 좋을 것 같다.
-4. [나머지](https://www.acmicpc.net/problem/10430)
+5. [나머지](https://www.acmicpc.net/problem/10430)
   - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/baekjoon/rest/Main.java)
   - 테스트코드를 기반으로 작성해서 한 번에 정답을 맞출 수 있었다.
+6. [곱셈](https://www.acmicpc.net/problem/2588)
+  - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/baekjoon/multifly/Main.java)
+  - 테스트코드를 기반으로 작성해서 한 번에 정답을 맞출 수 있었다.
+  - 숫자는 거꾸로 계산한다는 점을 간과해서 테스트에서 실패했었다. 주의하자.
   
 ## 종만북
 
