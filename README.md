@@ -273,6 +273,10 @@
   - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/baekjoon/multifly/Main.java)
   - 테스트코드를 기반으로 작성해서 한 번에 정답을 맞출 수 있었다.
   - 숫자는 거꾸로 계산한다는 점을 간과해서 테스트에서 실패했었다. 주의하자.
+7. [네 번째 점](https://www.acmicpc.net/problem/3009)
+  - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/baekjoon/fourthpoint/Main.java)
+  - XOR연산을 이용하여 테스트 코드는 통과하는데, 문제는 틀렸다고 나왔다. 뭐가 문제인지 아직 모르겠다.
+  - 그냥 있는지 확인해서 푸는 코드를 작성했는데, 파이썬보다 느려서 확인이 필요하다.
   
 ## 종만북
 
