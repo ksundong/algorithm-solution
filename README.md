@@ -182,6 +182,9 @@
     - 부족함을 많이 느낀 문제였다. 자주자주 풀어보자.
 43. [프린터](https://programmers.co.kr/learn/courses/30/lessons/42587)
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/printer/Solution.java)
+    - 우선순위 큐를 응용하는 문제같다.
+    - 우선순위가 계속 변경되는 포인트를 잘 잡지 못해서 풀이를 검색했다.
+    - 나중에 다시 풀어보자.
 ---
 
 ## [LeetCode](https://leetcode.com/)
