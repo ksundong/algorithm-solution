@@ -180,6 +180,8 @@
     - 대부분의 풀이는 시간이나 움직임을 계산했고, 이런 방식을 잘 생각하지 못했던 것 같다.
     - [프로그래머스 풀이](https://programmers.co.kr/learn/courses/30/lessons/42583/solution_groups?language=java)
     - 부족함을 많이 느낀 문제였다. 자주자주 풀어보자.
+43. [프린터](https://programmers.co.kr/learn/courses/30/lessons/42587)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/printer/Solution.java)
 ---
 
 ## [LeetCode](https://leetcode.com/)
