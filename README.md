@@ -282,6 +282,10 @@
   - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/baekjoon/fourthpoint/Main.java)
   - XOR연산을 이용하여 테스트 코드는 통과하는데, 문제는 틀렸다고 나왔다. 뭐가 문제인지 아직 모르겠다.
   - 그냥 있는지 확인해서 푸는 코드를 작성했는데, 파이썬보다 느려서 확인이 필요하다.
+8. [한수](https://www.acmicpc.net/problem/1065)
+  - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/baekjoon/hansu/Main.java)
+  - 양의 정수 X의 각 자리가 등차수열을 이룰 때, 이를 한수라고 한다.
+  - 이 떄, 1 <= 한수 <= N 인 한수의 개수를 출력하는 프로그램을 작성한다.
   
 ## 종만북
 
