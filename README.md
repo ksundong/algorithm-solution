@@ -188,6 +188,10 @@
 44. [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586)
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/featuredevelop/Solution.java)
     - 먼저 작업이 시작한 경우 다음 기능은 개발이 완료되더라도 배포되지 않는다.
+    - 객체지향적으로 접근했더니 상당히 잘 풀렸다. 20분 좀 넘게 걸렸나?
+    - 람다식을 적극 활용한 풀이도 좋아보인다.
+    - 동시에 스택을 활용하려고 노력했다. 결국 Queue 인터페이스의 구현체는 LinkedList이므로 iterator도 활용해보았다.
+    - 시간은 거의 2ms 내외로 걸렸다. 0이 들어가는 경우가 있었는데, 예외처리가 좀 아쉽긴 하다.
 ---
 
 ## [LeetCode](https://leetcode.com/)
