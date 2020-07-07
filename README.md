@@ -192,6 +192,8 @@
     - 람다식을 적극 활용한 풀이도 좋아보인다.
     - 동시에 스택을 활용하려고 노력했다. 결국 Queue 인터페이스의 구현체는 LinkedList이므로 iterator도 활용해보았다.
     - 시간은 거의 2ms 내외로 걸렸다. 0이 들어가는 경우가 있었는데, 예외처리가 좀 아쉽긴 하다.
+45. [주식가격](https://programmers.co.kr/learn/courses/30/lessons/42584)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/stockprice/Solution.java)
 ---
 
 ## [LeetCode](https://leetcode.com/)
