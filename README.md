@@ -194,6 +194,8 @@
     - 시간은 거의 2ms 내외로 걸렸다. 0이 들어가는 경우가 있었는데, 예외처리가 좀 아쉽긴 하다.
 45. [주식가격](https://programmers.co.kr/learn/courses/30/lessons/42584)
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/stockprice/Solution.java)
+    - 이전 가격과 다음 가격을 비교하면서 작아지면 카운트를 초기화하는 방식으로 계산해야할 것 같다.
+    - 100000개라면 최대 n^2 까지만 가능할 것 같다.
 ---
 
 ## [LeetCode](https://leetcode.com/)
