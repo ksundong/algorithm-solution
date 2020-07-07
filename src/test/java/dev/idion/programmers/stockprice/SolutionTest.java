@@ -23,4 +23,13 @@ class SolutionTest {
 
     assertThat(solution.solution(prices)).isEqualTo(expected);
   }
+
+  @Test
+  @DisplayName("Test Case 2")
+  void testCase2() {
+    int[] prices = {1, 1, 1, 1, 1, 1};
+    int[] expected = {5, 4, 3, 2, 1, 0};
+
+    assertThat(solution.solution(prices)).isEqualTo(expected);
+  }
 }
