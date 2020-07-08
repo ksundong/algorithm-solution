@@ -304,6 +304,10 @@
   - 한수를 판별하는 것은 999까지만 하면 된다.
   - 한수 검증 로직은 첫째 자리수, 둘째 자리수, 셋째 자리수가 같은지 비교하면 된다.
   - 처음에 예제 입력 출력을 잘못봐서 잘못된 로직으로 작성하였다.
+9. [직각삼각형](https://www.acmicpc.net/problem/4153)
+  - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/baekjoon/righttriangle/Main.java)
+  - 피타고라스의 정리를 응용하는 문제
+  - 혹시 몰라서 sorting을 해주었다.
   
 ## 종만북
 
