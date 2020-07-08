@@ -199,6 +199,8 @@
     - 스택을 사용해서 풀어보려고 했는데, 테스트 케이스는 통과하는데 다른건 통과하지 못해서 그냥 for loop로 해결해보려고한다.
     - for loop가 훨씬 직관적으로 코드가 들어오는 것 같다.
     - 그리고 O(n^2)가 아니면 안되는 것인지... 스택 자료구조를 적용해도 문제풀이는 똑같아서... 문제가 잘못된건 아닐까 생각한다.
+46. [탑](https://programmers.co.kr/learn/courses/30/lessons/42588)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/tower/Solution.java)
 ---
 
 ## [LeetCode](https://leetcode.com/)
