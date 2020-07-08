@@ -230,35 +230,35 @@
 #### May
 
 1. [Ransom Note](https://leetcode.com/explore/featured/card/may-leetcoding-challenge/534/week-1-may-1st-may-7th/3318/)
-  - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/leetcode/challenge/ransomnote/Solution.java)
-  - 처음엔 HashMap을 이용해서 풀었다. 53ms가 걸려서 이 방법은 느리다고 생각됐다.
-  - LeetCode에서 제출된 답안중 0ms가 걸린 Solution을 분석했다.
-  - 나와의 차이는 HashMap을 굳이 안쓴 점. split으로 나누지 않고 CharArray를 사용한 점. indexOf를 활용한 점.
-  - 그냥 너무 잘함...
+   - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/leetcode/challenge/ransomnote/Solution.java)
+   - 처음엔 HashMap을 이용해서 풀었다. 53ms가 걸려서 이 방법은 느리다고 생각됐다.
+   - LeetCode에서 제출된 답안중 0ms가 걸린 Solution을 분석했다.
+   - 나와의 차이는 HashMap을 굳이 안쓴 점. split으로 나누지 않고 CharArray를 사용한 점. indexOf를 활용한 점.
+   - 그냥 너무 잘함...
 
 2. [Number Complement](https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/534/week-1-may-1st-may-7th/3319/)
-  - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/leetcode/challenge/numbercomplement/Solution.java)
-  - 비트연산을 활용해보고 싶었다.
-  - 처음에 int 전체를 byte로 바꾸는 방법을 썼는데, 이건 보수를 구하는 방법이라... 음수가 나와버렸다.
-  - 결국 솔루션을 찾아봤다. 마지막 비트를 바로 더하는게 핵심인듯
-  - 그리고 0인 경우는 특이케이스라 바로 처리해줘야했다.
+   - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/leetcode/challenge/numbercomplement/Solution.java)
+   - 비트연산을 활용해보고 싶었다.
+   - 처음에 int 전체를 byte로 바꾸는 방법을 썼는데, 이건 보수를 구하는 방법이라... 음수가 나와버렸다.
+   - 결국 솔루션을 찾아봤다. 마지막 비트를 바로 더하는게 핵심인듯
+   - 그리고 0인 경우는 특이케이스라 바로 처리해줘야했다.
 
 3. [First Unique Character in a String](https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/534/week-1-may-1st-may-7th/3320/)
-  - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/leetcode/challenge/firstuniquechar/Solution.java)
-  - 반복되지 않는 Character중 가장 앞에 있는 것의 Index를 반환한다.
-  - 없으면 -1을 반환해야 한다.
-  - 모두 소문자로 가정한다.
-  - 일단 CharArray를 사용하면 될 것 같다.
-  - 4ms가 나왔다.
-  - 굳이 charArray로 바꿀 필요가 없는 것 같다. 입력의 범위가 소문자 'a' - 'z'이므로 for문을 돌릴 수 있다.
-  - 1ms가 나왔다. 사실 솔루션을 보고 했다. 어떻게 lastIndex랑 같은지 비교할 생각을 했지...
+   - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/leetcode/challenge/firstuniquechar/Solution.java)
+   - 반복되지 않는 Character중 가장 앞에 있는 것의 Index를 반환한다.
+   - 없으면 -1을 반환해야 한다.
+   - 모두 소문자로 가정한다.
+   - 일단 CharArray를 사용하면 될 것 같다.
+   - 4ms가 나왔다.
+   - 굳이 charArray로 바꿀 필요가 없는 것 같다. 입력의 범위가 소문자 'a' - 'z'이므로 for문을 돌릴 수 있다.
+   - 1ms가 나왔다. 사실 솔루션을 보고 했다. 어떻게 lastIndex랑 같은지 비교할 생각을 했지...
 
 4. [Majority Element](https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/534/week-1-may-1st-may-7th/3321/)
-  - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/leetcode/challenge/majorityelement/Solution.java)
-  - array의 크기는 n일 때, n/2 보다 많이 등장하는 element가 majority element이다.
-  - 빈 배열은 등장하지 않으며, majority element는 반드시 존재한다.
-  - 나오는 것을 일일이 세야할 것 같다.
-  - HashMap을 사용해서 풀어보았다. Runtime: 8 ms
+   - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/leetcode/challenge/majorityelement/Solution.java)
+   - array의 크기는 n일 때, n/2 보다 많이 등장하는 element가 majority element이다.
+   - 빈 배열은 등장하지 않으며, majority element는 반드시 존재한다.
+   - 나오는 것을 일일이 세야할 것 같다.
+   - HashMap을 사용해서 풀어보았다. Runtime: 8 ms
 
 ---
 
