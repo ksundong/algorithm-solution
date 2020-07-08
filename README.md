@@ -274,40 +274,40 @@
    - 테스트 코드는 통과했다.
    - 백준에 제출한 결과 76ms가 나왔다.
 3. [A/B](https://www.acmicpc.net/problem/1008)
-  - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/baekjoon/adivideb/Main.java)
-  - 브론즈 4 문제였다. 출력 예제를 보지 않고 그냥 만들었다가 틀려버렸다.
-  - 이 문제의 핵심은 나누기 연산을 했을 때, 소숫점 몇 번째 자리까지 표시할 것인지가 핵심인 것 같다.
-  - `System.out.printf("%.#f%n", 표시할 수 혹은 연산);`
-  - 여기서 #은 표시할 자릿수를 의미한다.
+   - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/baekjoon/adivideb/Main.java)
+   - 브론즈 4 문제였다. 출력 예제를 보지 않고 그냥 만들었다가 틀려버렸다.
+   - 이 문제의 핵심은 나누기 연산을 했을 때, 소숫점 몇 번째 자리까지 표시할 것인지가 핵심인 것 같다.
+   - `System.out.printf("%.#f%n", 표시할 수 혹은 연산);`
+   - 여기서 #은 표시할 자릿수를 의미한다.
 4. [사칙연산](https://www.acmicpc.net/problem/10869)
-  - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/baekjoon/fourarithmetic/Main.java)
-  - 브론즈 5 문제였는데 좀 많이 틀렸다.
-  - int 연산하고 나서 절대 char형을 그냥 더하지말고 그냥 String형을 붙이자. char형이 정수값으로 계산이 되어서 문제를 틀리고 있었다.
-  - 가급적이면 테스트 코드를 작성해서 원하는 대로 동작하는지 확인하는 습관을 다시금 들이자.
-  - 백준풀이는 템플릿을 만들어 놓는 것이 좋을 것 같다.
+   - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/baekjoon/fourarithmetic/Main.java)
+   - 브론즈 5 문제였는데 좀 많이 틀렸다.
+   - int 연산하고 나서 절대 char형을 그냥 더하지말고 그냥 String형을 붙이자. char형이 정수값으로 계산이 되어서 문제를 틀리고 있었다.
+   - 가급적이면 테스트 코드를 작성해서 원하는 대로 동작하는지 확인하는 습관을 다시금 들이자.
+   - 백준풀이는 템플릿을 만들어 놓는 것이 좋을 것 같다.
 5. [나머지](https://www.acmicpc.net/problem/10430)
-  - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/baekjoon/rest/Main.java)
-  - 테스트코드를 기반으로 작성해서 한 번에 정답을 맞출 수 있었다.
+   - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/baekjoon/rest/Main.java)
+   - 테스트코드를 기반으로 작성해서 한 번에 정답을 맞출 수 있었다.
 6. [곱셈](https://www.acmicpc.net/problem/2588)
-  - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/baekjoon/multifly/Main.java)
-  - 테스트코드를 기반으로 작성해서 한 번에 정답을 맞출 수 있었다.
-  - 숫자는 거꾸로 계산한다는 점을 간과해서 테스트에서 실패했었다. 주의하자.
+   - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/baekjoon/multifly/Main.java)
+   - 테스트코드를 기반으로 작성해서 한 번에 정답을 맞출 수 있었다.
+   - 숫자는 거꾸로 계산한다는 점을 간과해서 테스트에서 실패했었다. 주의하자.
 7. [네 번째 점](https://www.acmicpc.net/problem/3009)
-  - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/baekjoon/fourthpoint/Main.java)
-  - XOR연산을 이용하여 테스트 코드는 통과하는데, 문제는 틀렸다고 나왔다. 뭐가 문제인지 아직 모르겠다.
-  - 그냥 있는지 확인해서 푸는 코드를 작성했는데, 파이썬보다 느려서 확인이 필요하다.
+   - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/baekjoon/fourthpoint/Main.java)
+   - XOR연산을 이용하여 테스트 코드는 통과하는데, 문제는 틀렸다고 나왔다. 뭐가 문제인지 아직 모르겠다.
+   - 그냥 있는지 확인해서 푸는 코드를 작성했는데, 파이썬보다 느려서 확인이 필요하다.
 8. [한수](https://www.acmicpc.net/problem/1065)
-  - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/baekjoon/hansu/Main.java)
-  - 양의 정수 X의 각 자리가 등차수열을 이룰 때, 이를 한수라고 한다.
-  - 이 떄, 1 <= 한수 <= N 인 한수의 개수를 출력하는 프로그램을 작성한다.
-  - 두자리수 까지는 무조건 한수라고 친다. (예제 출력에 따르면)
-  - 한수를 판별하는 것은 999까지만 하면 된다.
-  - 한수 검증 로직은 첫째 자리수, 둘째 자리수, 셋째 자리수가 같은지 비교하면 된다.
-  - 처음에 예제 입력 출력을 잘못봐서 잘못된 로직으로 작성하였다.
+   - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/baekjoon/hansu/Main.java)
+   - 양의 정수 X의 각 자리가 등차수열을 이룰 때, 이를 한수라고 한다.
+   - 이 떄, 1 <= 한수 <= N 인 한수의 개수를 출력하는 프로그램을 작성한다.
+   - 두자리수 까지는 무조건 한수라고 친다. (예제 출력에 따르면)
+   - 한수를 판별하는 것은 999까지만 하면 된다.
+   - 한수 검증 로직은 첫째 자리수, 둘째 자리수, 셋째 자리수가 같은지 비교하면 된다.
+   - 처음에 예제 입력 출력을 잘못봐서 잘못된 로직으로 작성하였다.
 9. [직각삼각형](https://www.acmicpc.net/problem/4153)
-  - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/baekjoon/righttriangle/Main.java)
-  - 피타고라스의 정리를 응용하는 문제
-  - 혹시 몰라서 sorting을 해주었다.
+   - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/baekjoon/righttriangle/Main.java)
+   - 피타고라스의 정리를 응용하는 문제
+   - 혹시 몰라서 sorting을 해주었다.
   
 ## 종만북
 
