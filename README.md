@@ -201,6 +201,11 @@
     - 그리고 O(n^2)가 아니면 안되는 것인지... 스택 자료구조를 적용해도 문제풀이는 똑같아서... 문제가 잘못된건 아닐까 생각한다.
 46. [탑](https://programmers.co.kr/learn/courses/30/lessons/42588)
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/tower/Solution.java)
+    - 높이가 같으면 수신할 수 없다.
+    - 수신하는 탑이 바로 들어가게 된다.
+    - 스택으로 풀면 더 어려울 것 같은 느낌이 든다. 그래서 일단 배열을 사용해보기로 했다.
+    - 이중 포문이 나올 수 밖에 없는 문제고 가장 간단한 풀이를 생각해냈다.
+    - 스택을 활용한 것과 별반 다를바 없는 풀이였다.
 ---
 
 ## [LeetCode](https://leetcode.com/)
