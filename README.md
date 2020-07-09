@@ -236,6 +236,7 @@
             return gcd(q, p % q);
           }
           ```
+          시간 복잡도가 O(log(n+m)) 이라고 한다.
 ---
 
 ## [LeetCode](https://leetcode.com/)
