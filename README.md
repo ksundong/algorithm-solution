@@ -206,6 +206,8 @@
     - 스택으로 풀면 더 어려울 것 같은 느낌이 든다. 그래서 일단 배열을 사용해보기로 했다.
     - 이중 포문이 나올 수 밖에 없는 문제고 가장 간단한 풀이를 생각해냈다.
     - 스택을 활용한 것과 별반 다를바 없는 풀이였다.
+47. [멀쩡한 사각형](https://programmers.co.kr/learn/courses/30/lessons/62048)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/finesquare/Solution.java)
 ---
 
 ## [LeetCode](https://leetcode.com/)
