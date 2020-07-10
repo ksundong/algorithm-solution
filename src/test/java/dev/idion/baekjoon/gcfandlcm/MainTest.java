@@ -2,7 +2,6 @@ package dev.idion.baekjoon.gcfandlcm;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-import dev.idion.baekjoon.hansu.Main;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

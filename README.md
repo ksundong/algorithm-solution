@@ -348,6 +348,9 @@
    - 혹시 몰라서 sorting을 해주었다.
 10. [최대공약수와 최소공배수](https://www.acmicpc.net/problem/2609)
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/baekjoon/gcfandlcm/Main.java)
+    - 최대공약수는 유클리드 호제법으로 푼다. 여기서 조건이 a > b 여야 하므로 Math.max와 Math.min을 사용한다.
+    - 아니면 Arrays.sort를 써도 괜찮을 것 같다.
+    - 최소공배수는 (a / 최대공약수) * (b / 최대공약수) * 최대공약수 이므로 a * b / 최대공약수 이다.
   
 ## 종만북
 
