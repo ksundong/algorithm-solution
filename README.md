@@ -346,6 +346,8 @@
    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/baekjoon/righttriangle/Main.java)
    - 피타고라스의 정리를 응용하는 문제
    - 혹시 몰라서 sorting을 해주었다.
+10. [최대공약수와 최소공배수](https://www.acmicpc.net/problem/2609)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/baekjoon/gcfandlcm/Main.java)
   
 ## 종만북
 
