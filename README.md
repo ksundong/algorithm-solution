@@ -354,7 +354,11 @@
 11. [최소공배수](https://www.acmicpc.net/problem/1934)
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/baekjoon/lcm/Main.java)
     - 최소공배수는 결국 a * b / gcf로 구한다.
-  
+12. [GCD 합](https://www.acmicpc.net/problem/9613)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/baekjoon/gcdsum/Main.java)
+    - 전체 가능한 모든 경우를 다 계산한 합을 구해서 출력해야한다.
+    - overflow가 나서 틀렸던 문제다. 왠만하면 Sum하는 작업을 하는 변수는 long 타입으로 두는 편이 좋겠다.
+
 ## 종만북
 
 1. [록 페스티벌](https://algospot.com/judge/problem/read/FESTIVAL)
