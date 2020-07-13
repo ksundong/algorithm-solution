@@ -358,6 +358,11 @@
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/baekjoon/gcdsum/Main.java)
     - 전체 가능한 모든 경우를 다 계산한 합을 구해서 출력해야한다.
     - overflow가 나서 틀렸던 문제다. 왠만하면 Sum하는 작업을 하는 변수는 long 타입으로 두는 편이 좋겠다.
+13. [소수 찾기](https://www.acmicpc.net/problem/1978)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/baekjoon/findprime/Main.java)
+    - 소수를 찾는 알고리즘이 따로 있을까?
+    - 일단 수학적 정의에 입각해서 풀어보도록 하자.(1과 자기자신만으로 나누어 떨어지는 수, 단 1은 포함하지 않는다.)
+    - 생각보다 코드 최적화를 안했다고 생각했는데, 76ms로 빠른편이었다... 뭐지...
 
 ## 종만북
 
