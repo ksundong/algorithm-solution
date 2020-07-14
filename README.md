@@ -237,6 +237,9 @@
           }
           ```
           시간 복잡도가 O(log(n+m)) 이라고 한다.
+48. [스킬트리](https://programmers.co.kr/learn/courses/30/lessons/49993)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/skilltree/Solution.java)
+
 ---
 
 ## [LeetCode](https://leetcode.com/)
