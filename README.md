@@ -239,6 +239,15 @@
           시간 복잡도가 O(log(n+m)) 이라고 한다.
 48. [스킬트리](https://programmers.co.kr/learn/courses/30/lessons/49993)
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/skilltree/Solution.java)
+    - 게임에 익숙해선지 모르겠지만 문제가 좀 이상했다.
+    - 어쨌든 중요한 것은 순서가 정해져 있다는 것이다. 그리고 존재 유무로 판단하면 안될 것 같다.
+    - 있는지 확인하고 -> 순서에 맞는지 확인해야 맞을 것 같다.
+    - 별다른 edge case가 있을까? 조건이 되게 많아서 그럴 일은 없을 것 같다.
+    - 정규표현식으로 풀면 어떨까?
+    - 하나 빼먹은게 있었다. 스킬트리에서 안배우는 경우도 존재했다. 따라서 .*로 잇는 방법은 불가능
+    - skill을 제외한 문자열을 없앤다면? 그러면 스킬 종류만 남지 않을까?
+    - 그리고 나서 skill.indexOf를 먹이면 위치가 0으로 나오지 않을까?
+    - 속도는 20ms 정도 나왔다.
 
 ---
 
