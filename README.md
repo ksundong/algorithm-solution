@@ -248,6 +248,8 @@
     - skill을 제외한 문자열을 없앤다면? 그러면 스킬 종류만 남지 않을까?
     - 그리고 나서 skill.indexOf를 먹이면 위치가 0으로 나오지 않을까?
     - 속도는 20ms 정도 나왔다.
+49. [쇠막대기](https://programmers.co.kr/learn/courses/30/lessons/42585)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/ironbar/Solution.java)
 
 ---
 
