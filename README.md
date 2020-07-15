@@ -250,6 +250,13 @@
     - 속도는 20ms 정도 나왔다.
 49. [쇠막대기](https://programmers.co.kr/learn/courses/30/lessons/42585)
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/ironbar/Solution.java)
+    - 최대 O(n^2) solution이 나와야한다.
+    - 쌍을 이루니 스택을 활용한 문제일 것 같다.
+    - 스택을 사용하고 싶었는데 레이저 부분에서 문제가 되었다. 대부분은 레이저를 replace하는 식으로 풀었다.
+    - 그냥 더하고 빼는 방법도 가능해서 이렇게 풀었다.
+    - 스택을 쓰는 이유는 무엇인가 저장을 할 용도로 써야한다고 생각했기 때문이다.
+    - 다들 의미없는 값을 push하고 pop을 한다. peek만 쓰임이 조금 있었다.
+    - 스택 풀이도 주의깊게 봐두긴 해야할 것 같다.
 
 ---
 

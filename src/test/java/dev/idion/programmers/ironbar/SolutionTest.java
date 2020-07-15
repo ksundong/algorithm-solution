@@ -23,4 +23,13 @@ class SolutionTest {
 
     assertThat(solution.solution(arragement)).isEqualTo(expected);
   }
+
+  @Test
+  @DisplayName("solution test 2")
+  void solutionTest2() {
+    String arragement = "()";
+    int expected = 0;
+
+    assertThat(solution.solution(arragement)).isEqualTo(expected);
+  }
 }
