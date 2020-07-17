@@ -257,6 +257,8 @@
     - 스택을 쓰는 이유는 무엇인가 저장을 할 용도로 써야한다고 생각했기 때문이다.
     - 다들 의미없는 값을 push하고 pop을 한다. peek만 쓰임이 조금 있었다.
     - 스택 풀이도 주의깊게 봐두긴 해야할 것 같다.
+50. [카카오프렌즈 컬러링북](https://programmers.co.kr/learn/courses/30/lessons/1829)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/coloringbook/Solution.java)
 
 ---
 
