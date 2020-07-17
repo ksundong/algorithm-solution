@@ -259,6 +259,11 @@
     - 스택 풀이도 주의깊게 봐두긴 해야할 것 같다.
 50. [카카오프렌즈 컬러링북](https://programmers.co.kr/learn/courses/30/lessons/1829)
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/coloringbook/Solution.java)
+    - 순회를 이용해서 풀어야 할 것 같다.
+    - 왼쪽, 아랫쪽을 체크해서 같다면 같은 영역이다.
+    - HashMap을 써서 풀려고 했는데, 중복되는 Key를 가지는 영역은 어떻게하지?
+    - 질문을 보니 BFS 문제같다. BFS는 잘 몰라서 풀이를 보면서 따라가기로 했다.
+    - BFS의 핵심은 이미 방문한 곳은 다시 체크하지 않게끔 하는 것 같다.
 
 ---
 
