@@ -393,6 +393,9 @@
     - 생각보다 코드 최적화를 안했다고 생각했는데, 76ms로 빠른편이었다... 뭐지...
 14. [골드바흐의 추측](https://www.acmicpc.net/problem/6588)
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/baekjoon/goldbach/Main.java)
+    - 소수를 효과적으로 찾는 알고리즘인 에라토스테네스의 체를 모르면 시간이 더 오래 걸릴 것 같은 문제였다.
+    - 300ms 라서 느린편인줄 알았는데, 빠른편이었다.
+    - 실버 1은 에라토스테네스의 체를 감안해서 매겨진 등급인 것 같다.
 
 ## 종만북
 
