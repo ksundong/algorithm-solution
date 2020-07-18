@@ -391,6 +391,8 @@
     - 소수를 찾는 알고리즘이 따로 있을까?
     - 일단 수학적 정의에 입각해서 풀어보도록 하자.(1과 자기자신만으로 나누어 떨어지는 수, 단 1은 포함하지 않는다.)
     - 생각보다 코드 최적화를 안했다고 생각했는데, 76ms로 빠른편이었다... 뭐지...
+14. [골드바흐의 추측](https://www.acmicpc.net/problem/6588)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/baekjoon/goldbach/Main.java)
 
 ## 종만북
 
