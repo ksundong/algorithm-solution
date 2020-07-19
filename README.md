@@ -266,6 +266,12 @@
     - BFS의 핵심은 이미 방문한 곳은 다시 체크하지 않게끔 하는 것 같다.
 51. [소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42839)
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/findprime/Solution.java)
+    - 최대 7자리의 숫자가 만들어질 수 있다.
+    - 만들어질 수 있는 수를 모두 만들고 이 수가 소수인지 판단해야 한다.
+    - 일단 에라토스테네스의 체를 적용하는 게 좋을 것 같다. length를 가지고 판단한다. 시간 복잡도는 O n log log n 이라고 한다.
+    - 숫자 조합은 어떻게 만들 수 있을까? 이게 전체 다 사용하는 것이 아니라, 일부만 사용할 수도 있는데... 경우의 수가 너무 많다.
+    - 순열 알고리즘에 대해서 찾아보았다. (https://gorakgarak.tistory.com/522)
+    - 순열이 잘 이해가 안간다... 흑흑... 나중에 다시 풀어보자
 
 ---
 
