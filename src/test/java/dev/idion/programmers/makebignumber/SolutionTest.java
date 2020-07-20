@@ -44,4 +44,24 @@ class SolutionTest {
 
     assertThat(solution.solution(number, k)).isEqualTo(expected);
   }
+
+  @Test
+  @DisplayName("Solution Test 4")
+  void solutionTest4() {
+    String number = "991188";
+    int k = 4;
+    String expected = "99";
+
+    assertThat(solution.solution(number, k)).isEqualTo(expected);
+  }
+
+  @Test
+  @DisplayName("Solution Test 5")
+  void solutionTest5() {
+    String number = "9979";
+    int k = 2;
+    String expected = "99";
+
+    assertThat(solution.solution(number, k)).isEqualTo(expected);
+  }
 }
