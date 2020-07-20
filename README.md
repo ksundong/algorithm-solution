@@ -272,6 +272,8 @@
     - 숫자 조합은 어떻게 만들 수 있을까? 이게 전체 다 사용하는 것이 아니라, 일부만 사용할 수도 있는데... 경우의 수가 너무 많다.
     - 순열 알고리즘에 대해서 찾아보았다. (https://gorakgarak.tistory.com/522)
     - 순열이 잘 이해가 안간다... 흑흑... 나중에 다시 풀어보자
+52. [큰 수 만들기](https://programmers.co.kr/learn/courses/30/lessons/42883)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/makebignumber/Solution.java)
 
 ---
 
