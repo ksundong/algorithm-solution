@@ -32,4 +32,13 @@ class SolutionTest {
 
     assertThat(solution.solution(name)).isEqualTo(expected);
   }
+
+  @Test
+  @DisplayName("Solution Test 3")
+  void solutionTest3() {
+    String name ="JAZ";
+    int expected = 11;
+
+    assertThat(solution.solution(name)).isEqualTo(expected);
+  }
 }

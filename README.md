@@ -286,6 +286,17 @@
     - 일단 마지막 index로 변경했더니 잘 동작한다. Edge 케이스는 생각해봐야겠다.
 53. [조이스틱](https://programmers.co.kr/learn/courses/30/lessons/42860)
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/joystick/Solution.java)
+    - 항상 최선의 선택을 해야한다.
+    - 대문자로 이루어져있으므로 char 뺄셈이 가장 적은 상황을 고려하면 되지 않을까?
+    - 가운데 문자가 무엇이지? M?
+    - 일단 모든 글자를 순회해야 된다. 왜냐하면 왼쪽 오른쪽인지도 판단해야하기 때문이다.
+    - 위 아래 판단은 char 연산, 좌우 판단은 index 연산으로 계산하면 될 것 같다.
+    - int type으로 충분할 것 같다.
+    - 일단 모든 문자는 움직여야 하므로 이를 답에 더해준다.
+    - 그리고 나서 최소 이동거리를 더해주면 끝!
+    - [참고](https://keepgoing0328.tistory.com/71)
+    - 그리디로 풀면 안 풀리는 케이스가 있다고 하지만, 어찌되었든 통과는 했다.
+    - 점점 어려워진다... 어떻게 공부해야하는 걸까...
 
 ---
 
