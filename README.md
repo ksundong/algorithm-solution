@@ -284,6 +284,8 @@
     - 코드는 간단하게 나왔는데, 어렵다..
     - 최초위치 지정을 0번째로 해두면 안되는 것 같다. Edge 케이스는 무엇일까?
     - 일단 마지막 index로 변경했더니 잘 동작한다. Edge 케이스는 생각해봐야겠다.
+53. [조이스틱](https://programmers.co.kr/learn/courses/30/lessons/42860)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/programmers/joystick/Solution.java)
 
 ---
 
