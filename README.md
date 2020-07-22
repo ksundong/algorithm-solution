@@ -433,6 +433,8 @@
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/baekjoon/changecash/Main.java)
     - 가장 간단한 방법인 loop와 조건문을 통해서 만들었다.
     - 코드라인이 너무 무식해보이는 단점이 있지만, 가장 그리디하지 않을까 싶다.
+16. [디지털 티비](https://www.acmicpc.net/problem/2816)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/baekjoon/digitaltv/Main.java)
 
 ## 종만북
 
