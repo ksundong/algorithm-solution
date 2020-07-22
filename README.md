@@ -449,6 +449,12 @@
     - 처음 제출한 코드가 오답이 되었던 이유는, KBS2가 KBS1보다 앞에 있는 경우를 고려하지 않아서 생긴 문제였다.
 17. [ATM](https://www.acmicpc.net/problem/11399)
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/baekjoon/atm/Main.java)
+    - 정렬을 수행해서 더하는 방법이 있을 것이다.
+    - 1000개의 input이므로, nlogn 이라면 충분할 것 같다.
+    - 입력 값이 overflow가 발생할 가능성이 있어 long 타입을 써주었다.
+    - 왜 이게 실버인지 잘 모르겠다.
+    - 왜 이게 그리디인지 잘 모르겠다. 강의도 돈 주고 사야하고 ㅠㅠ(매 순간 최적의 해를 구하도록 만들어줘야해서 그런건가?)
+    - 오히려 정렬을 생각하지 못하면 못푸는 문제라고 생각이 들었다.
 
 ## 종만북
 
