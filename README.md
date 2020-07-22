@@ -447,6 +447,8 @@
     - 그중 적게걸리는 경우를 출력한다.
     - 스페셜 저지가 정답인 케이스가 여러개인 경우를 의미하는 것을 검색을 통해서 알았다.
     - 처음 제출한 코드가 오답이 되었던 이유는, KBS2가 KBS1보다 앞에 있는 경우를 고려하지 않아서 생긴 문제였다.
+17. [ATM](https://www.acmicpc.net/problem/11399)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/baekjoon/atm/Main.java)
 
 ## 종만북
 
