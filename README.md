@@ -431,6 +431,8 @@
     - 실버 1은 에라토스테네스의 체를 감안해서 매겨진 등급인 것 같다.
 15. [거스름돈](https://www.acmicpc.net/problem/5585)
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/baekjoon/changecash/Main.java)
+    - 가장 간단한 방법인 loop와 조건문을 통해서 만들었다.
+    - 코드라인이 너무 무식해보이는 단점이 있지만, 가장 그리디하지 않을까 싶다.
 
 ## 종만북
 
