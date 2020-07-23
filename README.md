@@ -482,6 +482,11 @@
     - 짧은 솔루션을 보니까 10개 크기의 배열을 생성해서 나온 갯수만큼 했다. countsort의 방식을 차용한 듯 하다.
 22. [잃어버린 괄호](https://www.acmicpc.net/problem/1541)
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/baekjoon/lostbracket/Main.java)
+    - 식의 결과를 최소로 만드는 문제다.
+    - 더하기 빼기 이므로 연산의 순서만 생각하면 되지 않을까?
+    - 순서대로 읽으면서 -가 등장하는 순간부터 다음 -가 등장할 때 까지 모두 더해서 빼는 것이 맞을 것 같다.
+    - 그냥 -가 등장한 이후로부터 다 빼버리면 되는 것 같다.
+    - 왜냐면 -가 등장한 이후의 +는 괄호로 감싼다고 가정하면 된다.
 
 ## 종만북
 
