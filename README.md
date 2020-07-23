@@ -472,7 +472,15 @@
     - 즉, n부터 순회하면서 가장 높은 중량이 걸리는 경우를 찾으면 되는 것 같다.
     - 정렬이 필요할 것 같다.
     - n^2 까지 가능한 것 같다.
-    
+21. [30](https://www.acmicpc.net/problem/10610)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/baekjoon/thirty/Main.java)
+    - 가장 큰 수 이면서 30의 배수를 만드는 문제
+    - 일단 수를 정렬해서 큰 수를 만든 다음 30의 배수인지 체크를 해야할 것 같다.
+    - 순서를 바꿨을 때, 30의 배수인 경우가 있을까? 아마 없으니까 그리디 일 것 같다.
+    - 런타임 에러가 떴다. 아마 시간복잡도를 고려하지 않은 것 같다.
+    - 문제가 거지같았다. 10만자리 수 였다. 이걸 Integer.parseInt를 하려고 했으니...
+    - 짧은 솔루션을 보니까 10개 크기의 배열을 생성해서 나온 갯수만큼 했다. countsort의 방식을 차용한 듯 하다.
+
 ## 종만북
 
 1. [록 페스티벌](https://algospot.com/judge/problem/read/FESTIVAL)
