@@ -468,6 +468,10 @@
     - Comparator 람다를 사용하면 느려진다. 항상 일관적으로 비교할 때, Comparable을 implement하는 것도 고려해보자.
 20. [로프](https://www.acmicpc.net/problem/2217)
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/baekjoon/rope/Main.java)
+    - 모두 고르게 분배된다는 것이 핵심인 것 같다.
+    - 즉, n부터 순회하면서 가장 높은 중량이 걸리는 경우를 찾으면 되는 것 같다.
+    - 정렬이 필요할 것 같다.
+    - n^2 까지 가능한 것 같다.
     
 ## 종만북
 
