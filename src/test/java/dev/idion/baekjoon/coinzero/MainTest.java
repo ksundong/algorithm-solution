@@ -29,7 +29,7 @@ class MainTest {
   @DisplayName("solution test2")
   void solutionTest2() throws IOException {
     String input = "10 4790\n1\n5\n10\n50\n100\n500\n1000\n5000\n10000\n50000";
-    String expected = "6";
+    String expected = "12";
     InputStream in = new ByteArrayInputStream(input.getBytes());
     ByteArrayOutputStream out = new ByteArrayOutputStream();
     System.setOut(new PrintStream(out));

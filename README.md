@@ -458,6 +458,8 @@
     - 호눅스에게 물어보았는데, 그리디 알고리즘은 말 그대로 부분해가 최적해가 되면 되는거라고 했다.
 18. [동전 0](https://www.acmicpc.net/problem/11047)
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/baekjoon/coinzero/Main.java)
+    - 동전을 역순으로 더해서 필요한 동전 개수를 구하는 프로그램을 짜야한다.
+    - 생각했던 대로 동작했고 실버 1급의 문제는 아닌 것 같다.
 
 ## 종만북
 
