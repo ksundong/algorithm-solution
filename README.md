@@ -455,6 +455,9 @@
     - 왜 이게 실버인지 잘 모르겠다.
     - 왜 이게 그리디인지 잘 모르겠다. 강의도 돈 주고 사야하고 ㅠㅠ(매 순간 최적의 해를 구하도록 만들어줘야해서 그런건가?)
     - 오히려 정렬을 생각하지 못하면 못푸는 문제라고 생각이 들었다.
+    - 호눅스에게 물어보았는데, 그리디 알고리즘은 말 그대로 부분해가 최적해가 되면 되는거라고 했다.
+18. [동전 0](https://www.acmicpc.net/problem/11047)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/baekjoon/coinzero/Main.java)
 
 ## 종만북
 
