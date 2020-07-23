@@ -466,6 +466,8 @@
     - 또한 문제의 조건에서 (1,4) (4,7) 같은 조건의 경우 가능함을 알 수 있다.
     - 정렬기준에서 끝나는 시간이 같은 경우 정렬되는 조건을 설정해주지 않아서 틀렸다. 정렬할 때도 항상 신경써서 하자.
     - Comparator 람다를 사용하면 느려진다. 항상 일관적으로 비교할 때, Comparable을 implement하는 것도 고려해보자.
+20. [로프](https://www.acmicpc.net/problem/2217)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/baekjoon/rope/Main.java)
     
 ## 종만북
 
