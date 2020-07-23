@@ -462,7 +462,11 @@
     - 생각했던 대로 동작했고 실버 1급의 문제는 아닌 것 같다.
 19. [회의실배정](https://www.acmicpc.net/problem/1931)
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/baekjoon/meetingroom/Main.java)
-
+    - 최적해를 구하려면, 가장 먼저 끝나는 것을 선택하고 이전에 선택한 것과 겹치지 않으면 됨을 알 수 있다.
+    - 또한 문제의 조건에서 (1,4) (4,7) 같은 조건의 경우 가능함을 알 수 있다.
+    - 정렬기준에서 끝나는 시간이 같은 경우 정렬되는 조건을 설정해주지 않아서 틀렸다. 정렬할 때도 항상 신경써서 하자.
+    - Comparator 람다를 사용하면 느려진다. 항상 일관적으로 비교할 때, Comparable을 implement하는 것도 고려해보자.
+    
 ## 종만북
 
 1. [록 페스티벌](https://algospot.com/judge/problem/read/FESTIVAL)
