@@ -460,6 +460,8 @@
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/baekjoon/coinzero/Main.java)
     - 동전을 역순으로 더해서 필요한 동전 개수를 구하는 프로그램을 짜야한다.
     - 생각했던 대로 동작했고 실버 1급의 문제는 아닌 것 같다.
+19. [회의실배정](https://www.acmicpc.net/problem/1931)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/baekjoon/meetingroom/Main.java)
 
 ## 종만북
 
