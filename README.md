@@ -480,6 +480,8 @@
     - 런타임 에러가 떴다. 아마 시간복잡도를 고려하지 않은 것 같다.
     - 문제가 거지같았다. 10만자리 수 였다. 이걸 Integer.parseInt를 하려고 했으니...
     - 짧은 솔루션을 보니까 10개 크기의 배열을 생성해서 나온 갯수만큼 했다. countsort의 방식을 차용한 듯 하다.
+22. [잃어버린 괄호](https://www.acmicpc.net/problem/1541)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/baekjoon/lostbracket/Main.java)
 
 ## 종만북
 
