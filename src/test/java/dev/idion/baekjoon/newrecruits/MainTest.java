@@ -24,4 +24,17 @@ class MainTest {
     Main.main(null);
     assertThat(out.toString()).isEqualTo(expected);
   }
+
+  @Test
+  @DisplayName("solution test2")
+  void solutionTest2() throws IOException {
+    String input = "1\n5\n1 1\n2 5\n3 4\n4 3\n5 2";
+    String expected = "1";
+    InputStream in = new ByteArrayInputStream(input.getBytes());
+    ByteArrayOutputStream out = new ByteArrayOutputStream();
+    System.setOut(new PrintStream(out));
+    System.setIn(in);
+    Main.main(null);
+    assertThat(out.toString()).isEqualTo(expected);
+  }
 }

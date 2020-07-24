@@ -496,6 +496,10 @@
     - 앞 뒤만 선택하면 안되고, 차이나는 구간 전체를 탐색해야 하는 것 같다.
 24. [신입 사원]https://www.acmicpc.net/problem/1946)
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/baekjoon/newrecruits/Main.java)
+    - 클래스를 만들어서 풀면 보다 쉽게 풀릴 것 같은 문제다.
+    - 클래스를 만들어서 정렬을 하면 되지 않을까?
+    - 적어도 하나가 다른 지원자보다 떨어지지 않는 자(둘 다 누군가보다 부족하다면 탈락대상)
+    - 클래스를 만들지 않고 CountSort 풀이하는 방법이 좀 신기해서 따라해봐야겠다.
 
 ## 종만북
 
