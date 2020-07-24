@@ -487,6 +487,8 @@
     - 순서대로 읽으면서 -가 등장하는 순간부터 다음 -가 등장할 때 까지 모두 더해서 빼는 것이 맞을 것 같다.
     - 그냥 -가 등장한 이후로부터 다 빼버리면 되는 것 같다.
     - 왜냐면 -가 등장한 이후의 +는 괄호로 감싼다고 가정하면 된다.
+23. [문자열](https://www.acmicpc.net/problem/1120)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/baekjoon/string/Main.java)
 
 ## 종만북
 
