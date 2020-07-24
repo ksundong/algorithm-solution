@@ -494,6 +494,8 @@
     - A의 앞이나 뒤에 연산을 할 수 있으므로 겹치는 영역의 개수만 체크해주면 된다.
     - 앞에서부터 탐색하고 뒤에서부터 탐색해서 둘중에 더 적게 차이나는 것을 선택하면 될 것 같다.
     - 앞 뒤만 선택하면 안되고, 차이나는 구간 전체를 탐색해야 하는 것 같다.
+24. [신입 사원]https://www.acmicpc.net/problem/1946)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/src/main/java/dev/idion/baekjoon/newrecruits/Main.java)
 
 ## 종만북
 
