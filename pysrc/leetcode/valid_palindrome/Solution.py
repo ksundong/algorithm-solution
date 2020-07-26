@@ -1,28 +1,11 @@
 import re
-from collections import Counter
 
 
 class Solution:
     def isPalindrome(self, s: str) -> bool:
-        if s == '':
-            return True
+        # 소문자로 변경
         s = s.lower()
+        # 정규표현식을 이용해서 필터링
         s = re.sub('[^a-z0-9]', '', s)
-        print()
-        if len(s) % 2 == 0:
-            for k, v in Counter(s).items():
-                if v % 2 != 0:
-                    return False
-        else:
-            is_first_odd: bool = False
-            for k, v in Counter(s).items():
-                if v % 2 != 0 and is_first_odd:
-                    return False
-                elif v % 2 != 0:
-                    is_first_odd = True
-        return True
 
-
-
-
-print(Solution.isPalindrome(None, "A man, a plan, a canal: Panama"))
+        return s == s[::-1]  # 거꾸로 뒤집어서 비교(슬라이싱 활용)
