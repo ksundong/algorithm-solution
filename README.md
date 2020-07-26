@@ -598,3 +598,7 @@
     - char 값의 합을 더해서 map에 대한 key로 하고, 같은 key를 list로 관리하는 것은 어떨까?
     - 아스키 코드의 합이 같은 경우가 edge case였다.
     - 정렬을 해줘야 하는 것 같다.
+6. [5. Longest Palindrome Substring](https://leetcode.com/problems/longest-palindromic-substring/)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/longest_palindromic_substring/Solution.py)
+    - 가장 긴 팰린드롬 부분 문자열을 출력하.
+    - 어떻게 접근해야 할지 모르겠다. 일단 패스
