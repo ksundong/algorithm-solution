@@ -567,3 +567,8 @@
    - 소문자로 만들고 있는 개수를 가지고 판단하도록 만들었는데, 중간에 있는 것 때문에 오류가 발생했다.
    - 카운터를 쓰면 안된다. 생각해보니까 앞과 뒤를 동시에 확인해야하는데... 흠...
    - 슬라이싱을 활용하면 될 것 같다.
+2. [344. Reverse String](https://leetcode.com/problems/reverse-string/)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/reverse_string/Solution.py)
+    - 문자열을 뒤집는 함수를 작성하라. 입력값은 문자 배열이며, 리턴 없이 리스트 내부를 직접 조작하라.
+    - 파이썬은 문자열자체를 접근하는 것이 불가능 해서 리스트로 준 것 같다.
+    - 스왑 함수를 만들면 될까?
