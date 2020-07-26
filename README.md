@@ -554,3 +554,15 @@
    - 하나의 결과만 요구하므로 LIMIT을 사용하고자 했다.
    - 가장 최근이라고 하였으므로, DATETIME의 ORDER BY를 이용하면 될 것 같았다.
    - 문제의 의도를 최대한 반영해서 쿼리를 더 줄였다.
+
+---
+
+## Python
+
+### [LeetCode](https://leetcode.com/)
+
+1. [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
+   - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/valid_palindrome/Solution.py)
+   - 주어진 문자열이 팰린드롬이지 확인하라. 대소문자를 구분하지 않으며, 영문자와 숫자만을 대상으로 한다.
+   - 소문자로 만들고 있는 개수를 가지고 판단하도록 만들었는데, 중간에 있는 것 때문에 오류가 발생했다.
+   - 카운터를 쓰면 안된다. 생각해보니까 앞과 뒤를 동시에 확인해야하는데... 흠...
