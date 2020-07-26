@@ -584,3 +584,9 @@
     - 숫자로그는 원래 순서를 그대로 유지해서 정렬한다.
     - 파이썬의 정렬방식을 잘 모르겠다. 그래서 답을 참고했다.
     - 리스트 컴프리헨션을 이용해서 풀었다.
+4. [819. Most Common Word](https://leetcode.com/problems/most-common-word/)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/most_common_word/Solution.py)
+    - 금지된 단어를 제외한 가장 흔하게 등장하는 단어를 출력하라.
+    - 대소문자 구분을 하지 않으며, 구두점 또한 무시한다.
+    - Counter를 활용하면 될 것 같다.
+    - List Comprehension으로 ban된 단어를 제외하는 것이 나을 것 같다.
