@@ -590,3 +590,11 @@
     - 대소문자 구분을 하지 않으며, 구두점 또한 무시한다.
     - Counter를 활용하면 될 것 같다.
     - List Comprehension으로 ban된 단어를 제외하는 것이 나을 것 같다.
+5. [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/group_anagrams/Solution.py)
+    - 문자열 배열을 받아 애너그램 단위로 그룹핑하라.
+    - 같은 문자로 이루어져 있는 문자열끼리 그룹핑하는 문제다.
+    - 출력의 순서는 무관하다.
+    - char 값의 합을 더해서 map에 대한 key로 하고, 같은 key를 list로 관리하는 것은 어떨까?
+    - 아스키 코드의 합이 같은 경우가 edge case였다.
+    - 정렬을 해줘야 하는 것 같다.
