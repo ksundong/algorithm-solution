@@ -625,3 +625,6 @@
     - n개의 페어를 이용한 min(a, b)의 합으로 만들 수 있는 가장 큰 수를 출력하라.
     - 정렬을 해서 합을 구하면 될 것 같다.
     - 약간 그리디한 풀이인 것 같다.
+11. [238. Produc of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/product_of_array_except_self/Solution.py)
+    - 배열을 입력받아 output[i] 가 자신을 제외한 나머지 모든 요소의 곱셈 결과가 되도록 출력하라.
