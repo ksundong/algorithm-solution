@@ -614,3 +614,9 @@
     - 순차로 탐색하며 투 포인터를 사용해봐야겠다.
     - 문제가 최고 높이에 도달했을 때, 어떻게 해야할지 모르겠다.
     - 일단 패스
+9. [15. 3Sum](https://leetcode.com/problems/3sum/)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/3sum/Solution.py)
+    - 배열을 입력받아 합으로 0을 만들 수 있는 3개의 엘리먼트를 출력하라.
+    - 브루트 포스는 고려하지 말자...
+    - 하나를 정해놓고 Two sum 문제로 만들어야 하는 것 같다.
+    - 풀이 실패
