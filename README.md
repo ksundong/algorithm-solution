@@ -636,3 +636,6 @@
 12. [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/best_time_to_buy_and_sell_stock/Solution.py)
     - 한 번의 거래로 낼 수 있는 최대 이익을 산출하라.
+    - 정렬은 할 수 없다.
+    - 시작값은 0으로 두어야 할 것 같다.
+    - 매우 느렸다. 더 좋은 방법을 고민해봐야겠다.
