@@ -607,3 +607,10 @@
     - 덧셈하여 타겟을 만들 수 있는 배열의 두 숫자 인덱스를 리턴하라
     - 가장 간단한 방법은 브루트 포스가 있지만, 매우 느릴 것이다.
     - 딕셔너리를 쓰는 편이 가장 빠를 것 같다.
+8. [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/trapping_rain_water/Solution.py)
+    - 높이를 입력받아 비 온 후 얼마나 많은 물이 쌓일 수 있는지 계산하라.
+    - 단순히 두 수의 차만 계산해선 안되는 것 같다.
+    - 순차로 탐색하며 투 포인터를 사용해봐야겠다.
+    - 문제가 최고 높이에 도달했을 때, 어떻게 해야할지 모르겠다.
+    - 일단 패스
