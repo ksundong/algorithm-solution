@@ -4,13 +4,16 @@ from typing import List
 class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
         result = []
+        p = 1
+        # 왼쪽 부터 곱셈
         for i in range(len(nums)):
-            tmp: int = 1
-            for j, num in enumerate(nums):
-                if i != j:
-                    tmp *= num
-
-            result.append(tmp)
+            result.append(p)
+            p *= nums[i]
+        p = 1
+        # 왼쪽결과에 오른쪽 값 부터 곱셈
+        for i in range(len(nums) - 1, -1, -1):
+            result[i] *= p
+            p *= nums[i]
         return result
 
 
