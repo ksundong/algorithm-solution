@@ -628,3 +628,7 @@
 11. [238. Produc of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/product_of_array_except_self/Solution.py)
     - 배열을 입력받아 output[i] 가 자신을 제외한 나머지 모든 요소의 곱셈 결과가 되도록 출력하라.
+    - 제약조건이 나눗셈을 하지 말라는 것이 있다. 나눗셈을 하는 것을 생각했는데...
+    - 전체합으로 나누는게 쉬우니까 이런 제약조건을 준 것 같다.
+    - 브루트 포스로 시도해보자
+    - 역시 시간초과로 실패했다.
