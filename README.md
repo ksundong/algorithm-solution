@@ -600,5 +600,8 @@
     - 정렬을 해줘야 하는 것 같다.
 6. [5. Longest Palindrome Substring](https://leetcode.com/problems/longest-palindromic-substring/)
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/longest_palindromic_substring/Solution.py)
-    - 가장 긴 팰린드롬 부분 문자열을 출력하.
+    - 가장 긴 팰린드롬 부분 문자열을 출력하라.
     - 어떻게 접근해야 할지 모르겠다. 일단 패스
+7. [1. Two sum](https://leetcode.com/problems/two-sum/)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/two_sum/Solution.py)
+    - 덧셈하여 타겟을 만들 수 있는 배열의 두 숫자 인덱스를 리턴하라
