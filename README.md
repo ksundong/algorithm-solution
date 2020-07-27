@@ -633,3 +633,6 @@
     - 브루트 포스로 시도해보자
     - 역시 시간초과로 실패했다.
     - 솔루션을 보니 왼쪽 곱에 오른쪽 부터 곱을 하는 방식으로 푼다고 한다.
+12. [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/best_time_to_buy_and_sell_stock/Solution.py)
+    - 한 번의 거래로 낼 수 있는 최대 이익을 산출하라.
