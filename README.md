@@ -605,3 +605,5 @@
 7. [1. Two sum](https://leetcode.com/problems/two-sum/)
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/two_sum/Solution.py)
     - 덧셈하여 타겟을 만들 수 있는 배열의 두 숫자 인덱스를 리턴하라
+    - 가장 간단한 방법은 브루트 포스가 있지만, 매우 느릴 것이다.
+    - 딕셔너리를 쓰는 편이 가장 빠를 것 같다.
