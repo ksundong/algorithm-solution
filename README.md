@@ -620,3 +620,5 @@
     - 브루트 포스는 고려하지 말자...
     - 하나를 정해놓고 Two sum 문제로 만들어야 하는 것 같다.
     - 풀이 실패
+10. [561. Array Partition I](https://leetcode.com/problems/array-partition-i/)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/array-partition-i/Solution.py)
