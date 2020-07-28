@@ -9,30 +9,19 @@ class Solution:
     def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
         dummy = cur = ListNode(0)
 
-        quotient = 0  # 몫을 저장할 변수 선언
-        while l1 and l2:  # l1과 l2가
-            remainer = (l1.val + l2.val + quotient) % 10  # 나머지 계산, 몫도 포함해서 계산한다.
-            quotient = (l1.val + l2.val + quotient) // 10  # 몫 계산, 혹시 자리올림이 발생할 수 있으므로 몫도 더해서 계산한다.
-            cur.next = ListNode(remainer)  # 나머지 부분만 저장한다.
-            l1, l2, cur = l1.next, l2.next, cur.next  # 다음노드 참조
+        carry = 0  # carry out될 변수 선언
+        while l1 or l2 or carry:  # l1, l2, carry 중 하나라도 존재하는 경우
+            sum_of_num = 0  # 합
+            if l1:
+                sum_of_num += l1.val
+                l1 = l1.next
+            if l2:
+                sum_of_num += l2.val
+                l2 = l2.next
 
-        # 길이가 다른 경우
-        if l1:
-            while l1:
-                remainer = (l1.val + quotient) % 10  # 나머지 계산, 몫도 포함해서 계산한다.
-                quotient = (l1.val + quotient) // 10  # 몫 계산, 혹시 자리올림이 발생할 수 있으므로 몫도 더해서 계산한다.
-                cur.next = ListNode(remainer)  # 나머지 부분만 저장한다.
-                l1, cur = l1.next, cur.next
-        if l2:
-            while l2:
-                remainer = (l2.val + quotient) % 10  # 나머지 계산, 몫도 포함해서 계산한다.
-                quotient = (l2.val + quotient) // 10  # 몫 계산, 혹시 자리올림이 발생할 수 있으므로 몫도 더해서 계산한다.
-                cur.next = ListNode(remainer)  # 나머지 부분만 저장한다.
-                l2, cur = l2.next, cur.next
-
-        # 몫이 남은 경우
-        if quotient != 0:
-            cur.next = ListNode(quotient)
+            carry, sum_of_num = divmod(sum_of_num + carry, 10)  # 자리 올림수, 나머지 계산
+            cur.next = ListNode(sum_of_num)
+            cur = cur.next
 
         return dummy.next
 
