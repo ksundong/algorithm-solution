@@ -643,3 +643,5 @@
 13. [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/palindrome_linked_list/Solution.py)
     - 연결 리스트가 팰린드롬 구조인지 판별하라.
+    - deque로 만들어서 앞 뒤를 pop해서 비교하면 될 것 같다.
+    - 팰린드롬은 deque를 활용하기!
