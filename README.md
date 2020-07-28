@@ -640,3 +640,6 @@
     - 시작값은 0으로 두어야 할 것 같다.
     - 매우 느렸다. 더 좋은 방법을 고민해봐야겠다.
     - O(n) 풀이 list slice를 하지 않고, 처음부터 최대 이익과 최소 가격을 갱신해나간다.
+13. [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/palindrome_linked_list/Solution.py)
+    - 연결 리스트가 팰린드롬 구조인지 판별하라.
