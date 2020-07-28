@@ -669,3 +669,6 @@
     - 더해서 역순 정렬하거나, 역순 정렬을 하면서 더하면 되겠지?
     - 통과는 했는데 너무 느리다 ㅠㅠ..
     - 책에선 전가산기를 응용하여 풀이를 진행했다. 깔끔하게 풀렸다.
+17. [24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/swap_nodes_in_pairs/Solution.py)
+    - 연결 리스트를 입력 받아 페어(pair)단위로 스왑하라.
