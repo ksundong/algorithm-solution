@@ -15,4 +15,5 @@ class Solution:
         return head
 
 
-Solution.swapPairs(None, ListNode(1, ListNode(2, ListNode(3, ListNode(4)))))
+solution = Solution()
+solution.swapPairs(ListNode(1, ListNode(2, ListNode(3, ListNode(4)))))
