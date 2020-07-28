@@ -653,9 +653,15 @@
     - 정렬이 되어있기 때문에 비교를 해나가면서 붙이면 된다.
     - 노드는 초기값이 0이기 때문에 이를 적절히 이용해야한다.
     - 더미노드는 반환하면 안되므로 next를 이용하여 반환한다.
-14. [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
+15. [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/reverse_linked_list/Solution.py)
     - 연결 리스트를 뒤집어라.
     - 반복문으로도 구현이 가능하고, 재귀로도 구현이 가능하다.
     - 반복으로 구현할 때, 주의할 점은 다중할당을 이용해야 풀린다는 점이다.
     - 재귀는 잘 이해가 안간다...
+16. [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode//Solution.py)
+    - 역순으로 저장된 연결 리스트의 숫자를 더하라.
+    - 빈 리스트는 주어지지 않는다.
+    - 양수만 주어진다.
+    - 노드는 단 한 개의 숫자만 가질 수 있다.
