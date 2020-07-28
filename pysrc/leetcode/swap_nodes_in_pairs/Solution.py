@@ -7,7 +7,12 @@ class ListNode:
 
 class Solution:
     def swapPairs(self, head: ListNode) -> ListNode:
-        pass
+        if head and head.next:
+            prev = head.next
+            head.next = self.swapPairs(prev.next)
+            prev.next = head
+            return prev
+        return head
 
 
 Solution.swapPairs(None, ListNode(1, ListNode(2, ListNode(3, ListNode(4)))))

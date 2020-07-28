@@ -672,3 +672,6 @@
 17. [24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/swap_nodes_in_pairs/Solution.py)
     - 연결 리스트를 입력 받아 페어(pair)단위로 스왑하라.
+    - 노드를 두 개씩 건너 뛰면서 각각을 스왑하게하면 되지 않을까?
+    - 재귀를 사용하면 맨 밑에서부터 변경됨을 효과적으로 표현할 수 있을 것 같다.
+    - 결국 못풀었다. ㅠㅠ
