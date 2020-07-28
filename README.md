@@ -646,3 +646,10 @@
     - deque로 만들어서 앞 뒤를 pop해서 비교하면 될 것 같다.
     - 팰린드롬은 deque를 활용하기!
     - 책을 보니 런너를 이용한 풀이가 있었다.
+14. [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/merge_two_sorted_lists/Solution.py)
+    - 정렬되어 있는 두 연결 리스트를 합쳐라.
+    - 새로운 노드를 만들어서 붙여나가면 되지 않을까?
+    - 정렬이 되어있기 때문에 비교를 해나가면서 붙이면 된다.
+    - 노드는 초기값이 0이기 때문에 이를 적절히 이용해야한다.
+    - 더미노드는 반환하면 안되므로 next를 이용하여 반환한다.
