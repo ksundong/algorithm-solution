@@ -653,3 +653,6 @@
     - 정렬이 되어있기 때문에 비교를 해나가면서 붙이면 된다.
     - 노드는 초기값이 0이기 때문에 이를 적절히 이용해야한다.
     - 더미노드는 반환하면 안되므로 next를 이용하여 반환한다.
+14. [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/reverse_linked_list/Solution.py)
+    - 연결 리스트를 뒤집어라
