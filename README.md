@@ -680,3 +680,6 @@
     - 연결 리스트를 홀수 노드 다음에 짝수 노드가 오도록 재구성하라. 공간 복잡도 O(1), 시간 복잡도 O(n)에 풀이하라.
     - 어떻게 하면 우아하게 풀이할 수 있을까? 그림을 그려가며 풀어봐야겠다.
     - 그림을 그려가면서 풀었는데 30분 정도 걸렸다. 후...
+19. [92. Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/reverse_linked_list_ii/Solution.py)
+    - 인덱스 m에서 n까지를 역순으로 만들어라. 인덱스 m은 1부터 시작한다.
