@@ -683,3 +683,6 @@
 19. [92. Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/reverse_linked_list_ii/Solution.py)
     - 인덱스 m에서 n까지를 역순으로 만들어라. 인덱스 m은 1부터 시작한다.
+    - 역시 그림을 그려서 코드를 대충 생각해보았다.
+    - 조건에 따라서 빈 노드가 들어올 일은 없을 것 같다.
+    - 그림을 그려가면서 푸니까 확실히 잘 풀리는 것 같다.
