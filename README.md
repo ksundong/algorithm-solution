@@ -675,3 +675,8 @@
     - 노드를 두 개씩 건너 뛰면서 각각을 스왑하게하면 되지 않을까?
     - 재귀를 사용하면 맨 밑에서부터 변경됨을 효과적으로 표현할 수 있을 것 같다.
     - 결국 못풀었다. ㅠㅠ
+18. [328. Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/odd_even_linked_list/Solution.py)
+    - 연결 리스트를 홀수 노드 다음에 짝수 노드가 오도록 재구성하라. 공간 복잡도 O(1), 시간 복잡도 O(n)에 풀이하라.
+    - 어떻게 하면 우아하게 풀이할 수 있을까? 그림을 그려가며 풀어봐야겠다.
+    - 그림을 그려가면서 풀었는데 30분 정도 걸렸다. 후...
