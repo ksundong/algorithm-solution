@@ -689,3 +689,6 @@
 20. [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/valid_parentheses/Solution.py)
     - 괄호로 된 입력값이 올바른지 판별하라.
+    - 스택을 활용하는 전형적인 문제였다.
+    - 예외 처리를 신경쓰지 않았더니 실패를 많이했다.
+    - 집중력이 낮았다.
