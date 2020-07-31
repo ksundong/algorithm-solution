@@ -697,3 +697,6 @@
 22. [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/daily_temperatures/Solution.py)
     - 매일의 화씨 온도 리스트 T를 입력받아서, 더 따뜻한 날씨를 위해서는 며칠을 더 기다려야 하는지를 출력하라.
+    - 그림을 그려가면서 작성하면 더 잘될 것 같다.
+    - 언제 스택에서 빼고, 넣는지를 명확히 하면 될 것 같다.
+    - 인덱스의 차이가 일 수가 될 것 같다.
