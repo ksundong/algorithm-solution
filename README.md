@@ -692,3 +692,5 @@
     - 스택을 활용하는 전형적인 문제였다.
     - 예외 처리를 신경쓰지 않았더니 실패를 많이했다.
     - 집중력이 낮았다.
+21. [316. Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/)
+    - 어려운 문제라 일단 패스
