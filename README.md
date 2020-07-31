@@ -686,3 +686,6 @@
     - 역시 그림을 그려서 코드를 대충 생각해보았다.
     - 조건에 따라서 빈 노드가 들어올 일은 없을 것 같다.
     - 그림을 그려가면서 푸니까 확실히 잘 풀리는 것 같다.
+20. [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/valid_parentheses/Solution.py)
+    - 괄호로 된 입력값이 올바른지 판별하라.
