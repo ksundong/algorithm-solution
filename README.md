@@ -694,3 +694,6 @@
     - 집중력이 낮았다.
 21. [316. Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/)
     - 어려운 문제라 일단 패스
+22. [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/daily_temperatures/Solution.py)
+    - 매일의 화씨 온도 리스트 T를 입력받아서, 더 따뜻한 날씨를 위해서는 며칠을 더 기다려야 하는지를 출력하라.
