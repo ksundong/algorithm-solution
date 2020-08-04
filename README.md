@@ -700,3 +700,11 @@
     - 그림을 그려가면서 작성하면 더 잘될 것 같다.
     - 언제 스택에서 빼고, 넣는지를 명확히 하면 될 것 같다.
     - 인덱스의 차이가 일 수가 될 것 같다.
+23. [225. Implement Stack Using Queues](https://leetcode.com/problems/implement-stack-using-queues/)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/implement_stack_using_queues/Solution.py)
+    - 큐를 이용해 다음 연산을 지원하는 스택을 구현하라.
+        - push(x): 요소 x를 스택에 삽입한다.
+        - pop(): 스택의 첫 번째 요소를 삭제한다.
+        - top(): 스택의 첫 번째 요소를 가져온다.
+        - empty(): 스택이 비어 있는지 여부를 리턴한다.
+    - 파이썬이 너무 강력해서 오히려 더 어려운 문제였다.
