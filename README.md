@@ -708,3 +708,5 @@
         - top(): 스택의 첫 번째 요소를 가져온다.
         - empty(): 스택이 비어 있는지 여부를 리턴한다.
     - 파이썬이 너무 강력해서 오히려 더 어려운 문제였다.
+24. [232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/implement_queue_using_stacks/Solution.py)
