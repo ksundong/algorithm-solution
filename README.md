@@ -719,3 +719,6 @@
 25. [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/design_circular_queue/Solution.py)
     - 원형 큐를 디자인하라.
+    - 생각만큼 쉽게 풀리지 않는다. 일단 파이썬엔 배열이 없다...
+    - 배열처럼 하기가 까다로웠다.
+    - -1을 리턴할 때, if else 문을 쓸 수 있는건 신기한 것 같다.
