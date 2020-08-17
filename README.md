@@ -710,3 +710,12 @@
     - 파이썬이 너무 강력해서 오히려 더 어려운 문제였다.
 24. [232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/implement_queue_using_stacks/Solution.py)
+    - 스택을 이용해 다음 연산을 지원하는 큐를 구현하라.
+        - push(x): 요소 x를 큐 마지막에 삽입한다.
+        - pop(): 큐 처음에 있는 요소를 제거한다.
+        - peek(): 큐 처음에 있는 요소를 조회한다.
+        - empty(): 큐가 비어있는지 여부를 리턴한다.
+    - 앞의 문제랑 똑같이 풀면 안풀린다.
+25. [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/design_circular_queue/Solution.py)
+    - 원형 큐를 디자인하라.
