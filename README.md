@@ -738,3 +738,10 @@
     - 책을 보니까 ListNode를 쓰는데, 정의가 딱히 없어서 없는줄 알았는데, Python으로 해보니까 된다.. 뭐지..
     - 파이썬은 좋긴한데 가끔은 짜증이 난다... ,를 .으로 썼는데 오류가 안나서 뭐가문젠지 한참 찾았다.
     - 그리고 left, right를 굳이 선언하지 않아도 쓸 수 있다는걸 알았다. 신기하다..
+27. [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/merge_k_sorted_lists/Solution.py)
+    - k개의 정렬된 리스트를 1개의 정렬된 리스트로 병합하라.
+    - 파이썬에서 힙을 어떻게 써야할지 모르겠다...
+    - 풀이방법만 알면 쉬운 문제라고 한다.
+    - 파이썬의 힙은 최소힙으로 구현되어있다고 한다.
+    - 이해는 했지만 다시 풀어봐야겠다.
