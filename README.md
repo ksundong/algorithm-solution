@@ -722,3 +722,16 @@
     - 생각만큼 쉽게 풀리지 않는다. 일단 파이썬엔 배열이 없다...
     - 배열처럼 하기가 까다로웠다.
     - -1을 리턴할 때, if else 문을 쓸 수 있는건 신기한 것 같다.
+26. [641. Design Circular Dequeue](https://leetcode.com/problems/design-circular-deque/)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/design_circular_deque/Solution.py)
+    - 다음 연산을 제공하는 원형 데크를 디자인하라.
+        - `MyCircularDeque(k)`: 데크 사이즈를 k로 지정하는 생성자다.
+        - `insertFront()`: 데크 처음에 아이템을 추가하고 성공할 경우 True를 리턴한다.
+        - `insertLast()`: 데크 마지막에 아이템을 추가하고 성공할 경우 True를 리턴한다.
+        - `deleteFront()`: 데크 처음에 아이템을 삭제하고 성공할 경우 True를 리턴한다.
+        - `deleteLast()`: 데크 마지막에 아이템을 삭제하고 성공할 경우 True를 리턴한다.
+        - `getFront()`: 데크의 첫 번째 아이템을 가져온다. 데크가 비어 있다면 -1을 리턴한다.
+        - `getRear()`: 데크의 마지막 아이템을 가져온다. 데크가 비어 있다면 -1을 리턴한다.
+        - `isEmpty()`: 데크가 비어 있는지 여부를 판별한다.
+        - `isFull()`: 데크가 가득 차 있는지 여부를 판별한다.
+    - 파이썬 덱 구현체를 사용했다. 당연히 이렇게 푸는건 아니겠지 -ㅂ-... 
