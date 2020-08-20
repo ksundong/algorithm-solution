@@ -1,50 +1,64 @@
-from collections import deque
+# Definition for singly-linked list.
+class ListNode:
+    def __init__(self, val, next=None):
+        self.val = val
+        self.next = next
 
 
 class MyCircularDeque:
 
     def __init__(self, k: int):
-        self.max_size = k
-        self.size = 0
-        self.deque = deque()
+        self.head, self.tail = ListNode(None), ListNode(None)
+        self.max_size, self.size = k, 0
+        self.head.right, self.tail.left = self.tail, self.head  # 이건 왜 되는거야...
+
+    def _link_node(self, node: ListNode, new_node: ListNode):
+        n = node.right
+        node.right = new_node
+        new_node.left, new_node.right = node, n
+        n.left = new_node
+
+    def _unlink_node(self, node: ListNode):
+        n = node.right.right
+        node.right, n.left = n, node
 
     def insertFront(self, value: int) -> bool:
         if self.isFull():
             return False
-        self.deque.appendleft(value)
         self.size += 1
+        self._link_node(self.head, ListNode(value))
         return True
 
     def insertLast(self, value: int) -> bool:
         if self.isFull():
             return False
-        self.deque.append(value)
         self.size += 1
+        self._link_node(self.tail.left, ListNode(value))
         return True
 
     def deleteFront(self) -> bool:
         if self.isEmpty():
             return False
-        self.deque.popleft()
         self.size -= 1
+        self._unlink_node(self.head)
         return True
 
     def deleteLast(self) -> bool:
         if self.isEmpty():
             return False
-        self.deque.pop()
         self.size -= 1
+        self._unlink_node(self.tail.left.left)
         return True
 
     def getFront(self) -> int:
         if self.isEmpty():
             return -1
-        return self.deque[0]
+        return self.head.right.val
 
     def getRear(self) -> int:
         if self.isEmpty():
             return -1
-        return self.deque[-1]
+        return self.tail.left.val
 
     def isEmpty(self) -> bool:
         return self.size == 0
