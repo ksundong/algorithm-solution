@@ -745,3 +745,12 @@
     - 풀이방법만 알면 쉬운 문제라고 한다.
     - 파이썬의 힙은 최소힙으로 구현되어있다고 한다.
     - 이해는 했지만 다시 풀어봐야겠다.
+28. [706. Design HashMap](https://leetcode.com/problems/design-hashmap/)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/design_hashmap/Solution.py)
+    - 다음의 기능을 제공하는 해시맵을 디자인하라.
+    - put(key, value): 키, 값을 해시맵에 삽입한다. 만약 이미 존재하는 키라면 업데이트한다.
+    - get(key): 키에 해당하는 값을 조회한다. 만약 키가 존재하지 않는다면 -1을 리턴한다.
+    - remove(key): 키에 해당하는 키, 값을 해시맵에서 삭제한다.
+    - 그냥 k가 곧 list인 배열을 사용했다. 크기는 동일하게 지정했다. 이렇게 구현한 이유는 가장 공간을 많이 먹지만, 가장 속도가 빠름을 예상할 수 있어서다.
+    - 해시를 할거라면 아마 사이즈를 지정하고, %연산자를 활용하지 않았을까?
+    - default dict를 쓰면 파이썬 중에선 빠른편이다.
