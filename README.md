@@ -766,3 +766,6 @@
 30. [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/longest_substring_without_repeating_characters/Solution.py)
     - 중복 문자가 없는 가장 긴 부분 문자열의 길이를 리턴하라.
+    - 순서대로 탐색하면서 같은 문자가 딕셔너리에 없으면 길이를 증가시키고, 있으면 초기화시켜서 최대 길이를 구한다.
+    - 중복된 문자가 등장하지만 다른게 더 긴 edge case가 존재했다. (dvdf)
+    - 풀이를 봤는데 뭔말인지 모르겠다. 슬라이딩 윈도우 배우고 다시 풀어보지뭐...
