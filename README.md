@@ -763,3 +763,6 @@
     - 문제 요구사항을 보니 J는 중복되지 않는 문자열인 것 같다.
     - 카운터를 이용했다. 풀이도 카운터를 쓴다. 속도는 32ms
     - 파이써닉한 풀이가 제일 빨랐다. 리스트 컴프리헨션은 참 신기하다.
+30. [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/longest_substring_without_repeating_characters/Solution.py)
+    - 중복 문자가 없는 가장 긴 부분 문자열의 길이를 리턴하라.
