@@ -1,13 +1,6 @@
-from collections import Counter
-
-
 class Solution:
     def numJewelsInStones(self, J: str, S: str) -> int:
-        stone_count: Counter = Counter(S)
-        count: int = 0
-        for j in J:
-            count += stone_count[j]
-        return count
+        return sum(s in J for s in S)
 
 
 solution: Solution = Solution()
