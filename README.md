@@ -755,3 +755,8 @@
     - 해시를 할거라면 아마 사이즈를 지정하고, %연산자를 활용하지 않았을까?
     - default dict를 쓰면 파이썬 중에선 빠른편이다.
     - 책은 해시맵을 직접 구현한다. 해싱은 그냥 모듈라 연산만 한다.
+29. [771. Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/jewels_and_stones/Solution.py)
+    - J는 보석이며, S는 갖고 있는 돌이다. S에는 보석이 몇 개나 있을까? 대소문자는 구분한다.
+    - 먼저 요구사항을 보니 문자 하나하나가 종류에 해당하는 것 같다.
+    - defaultdict를 활용해야 할 것 같다.
