@@ -769,3 +769,6 @@
     - 순서대로 탐색하면서 같은 문자가 딕셔너리에 없으면 길이를 증가시키고, 있으면 초기화시켜서 최대 길이를 구한다.
     - 중복된 문자가 등장하지만 다른게 더 긴 edge case가 존재했다. (dvdf)
     - 풀이를 봤는데 뭔말인지 모르겠다. 슬라이딩 윈도우 배우고 다시 풀어보지뭐...
+31. [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/top_k_frequent_elements/Solution.py)
+    - k번 이상 등장하는 요소를 추출하라.
