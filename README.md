@@ -772,3 +772,5 @@
 31. [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/top_k_frequent_elements/Solution.py)
     - k번 이상 등장하는 요소를 추출하라.
+    - 문제 설명이 이상한듯.. k 순위까지 뽑아내는 듯한 예제 케이스임.
+    - Counter의 most_common을 활용해서 풀었다.
