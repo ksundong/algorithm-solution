@@ -775,3 +775,7 @@
     - 문제 설명이 이상한듯.. k 순위까지 뽑아내는 듯한 예제 케이스임.
     - Counter의 most_common을 활용해서 풀었다.
     - zip이나 asterisk 얘기가 나오는데 봐도 이해가 안간다. 재미없다.
+32. [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/number_of_islands/Solution.py)
+    - 1을 육지로, 0을 물로 가정한 2D 그리드 맵이 주어졌을 때, 섬의 개수를 계산하라.(연결된 1들은 하나로 계산한다.)
+    - 뭔가 어떻게 풀면 될지가 명확하지 않다... DFS, BFS 문제를 안풀어봐서 그런 것 같다 ㅠㅠ
