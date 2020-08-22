@@ -781,3 +781,6 @@
     - 뭔가 어떻게 풀면 될지가 명확하지 않다... DFS, BFS 문제를 안풀어봐서 그런 것 같다 ㅠㅠ
     - 방문한 곳을 체크하는 것이 중요한 것 같다. 책의 설명을 확인해가면서 전략을 세웠는데 비슷하게 푼 것 같다.
     - 파이썬에는 함수 안에 함수를 선언할 수 있는 중첩 함수라는 것이 있다. 스코프 때문에 전달해줬던 변수나, self가 사라져서 좋은 것 같다.
+33. [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/letter_combinations_of_a_phone_number/Solution.py)
+    - 2에서 9까지 숫자가 주어졌을 때 전화 번호로 조합 가능한 모든 문자를 출력하라
