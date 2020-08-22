@@ -779,3 +779,4 @@
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/number_of_islands/Solution.py)
     - 1을 육지로, 0을 물로 가정한 2D 그리드 맵이 주어졌을 때, 섬의 개수를 계산하라.(연결된 1들은 하나로 계산한다.)
     - 뭔가 어떻게 풀면 될지가 명확하지 않다... DFS, BFS 문제를 안풀어봐서 그런 것 같다 ㅠㅠ
+    - 방문한 곳을 체크하는 것이 중요한 것 같다. 책의 설명을 확인해가면서 전략을 세웠는데 비슷하게 푼 것 같다.
