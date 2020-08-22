@@ -784,3 +784,7 @@
 33. [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/letter_combinations_of_a_phone_number/Solution.py)
     - 2에서 9까지 숫자가 주어졌을 때 전화 번호로 조합 가능한 모든 문자를 출력하라
+    - 문자 조합을 구하는 것이라서 그 숫자로 가능한 문자의 경우들을 조합해서 출력해야 할 것 같다.
+    - 그리고 순서가 정해져있어서 쉬운 것 같다.
+    - 그냥 가능한 문자들을 죄다 리스트에 넣고 합치는 식으로 하면 될 것 같다.
+    - 리스트 컴프리헨션 및 파이썬의 강력함을 느낄 수 있는 문제였다.
