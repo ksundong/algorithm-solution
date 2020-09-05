@@ -788,3 +788,10 @@
     - 그리고 순서가 정해져있어서 쉬운 것 같다.
     - 그냥 가능한 문자들을 죄다 리스트에 넣고 합치는 식으로 하면 될 것 같다.
     - 리스트 컴프리헨션 및 파이썬의 강력함을 느낄 수 있는 문제였다.
+
+### [CodeSignal](https://app.codesignal.com/)
+
+1. [firstNotRepeatingCharacter](https://app.codesignal.com/interview-practice/task/uX5iLwhc6L5ckSyNC)
+    - 처음으로 중복되지 않는 문자열 찾기
+    - Python의 Counter가 이런문제에서 강한 것 같다.
+    - 만약 순서보장이 안된다면, list에 append하고 가장 index가 작은 값을 지정하면 될 것 같다.
