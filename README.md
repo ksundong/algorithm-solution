@@ -794,6 +794,9 @@
     - 파이썬의 내장모듈인 itertools를 활용하면 간단하게 풀 수 있다.
     - 참고: https://medium.com/@dltkddud4403/python-%EC%88%9C%EC%97%B4-%EC%A1%B0%ED%95%A9-%EA%B5%AC%ED%98%84-5e496e74621c
     - 재귀를 이용하는 방법도 있다. 단, 파이썬에서는 itertools가 C언어로 되어있어 성능은 더 좋다.
+35. [77. Combinations](https://leetcode.com/problems/combinations/)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/combinations/Solution.py)
+    - 전체 수 n을 입력받아 k개의 조합을 리턴하라.
 
 ### [CodeSignal](https://app.codesignal.com/)
 
