@@ -788,6 +788,9 @@
     - 그리고 순서가 정해져있어서 쉬운 것 같다.
     - 그냥 가능한 문자들을 죄다 리스트에 넣고 합치는 식으로 하면 될 것 같다.
     - 리스트 컴프리헨션 및 파이썬의 강력함을 느낄 수 있는 문제였다.
+34. [46. Permutations](https://leetcode.com/problems/permutations/)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/permutations/Solution.py)
+    - 서로 다른 정수를 입력받아 가능한 모든 순열을 리턴하라
 
 ### [CodeSignal](https://app.codesignal.com/)
 
