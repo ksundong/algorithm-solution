@@ -792,6 +792,8 @@
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/permutations/Solution.py)
     - 서로 다른 정수를 입력받아 가능한 모든 순열을 리턴하라
     - 파이썬의 내장모듈인 itertools를 활용하면 간단하게 풀 수 있다.
+    - 참고: https://medium.com/@dltkddud4403/python-%EC%88%9C%EC%97%B4-%EC%A1%B0%ED%95%A9-%EA%B5%AC%ED%98%84-5e496e74621c
+    - 재귀를 이용하는 방법도 있다. 단, 파이썬에서는 itertools가 C언어로 되어있어 성능은 더 좋다.
 
 ### [CodeSignal](https://app.codesignal.com/)
 
