@@ -797,6 +797,8 @@
 35. [77. Combinations](https://leetcode.com/problems/combinations/)
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/combinations/Solution.py)
     - 전체 수 n을 입력받아 k개의 조합을 리턴하라.
+    - itertools가 성능도 좋고 풀이속도도 빠르다.
+    - 재귀를 이용하는 방법을 이해는 해두자.
 
 ### [CodeSignal](https://app.codesignal.com/)
 
