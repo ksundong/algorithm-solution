@@ -799,6 +799,9 @@
     - 전체 수 n을 입력받아 k개의 조합을 리턴하라.
     - itertools가 성능도 좋고 풀이속도도 빠르다.
     - 재귀를 이용하는 방법을 이해는 해두자.
+36. [39. Combination Sum](https://leetcode.com/problems/combination-sum/)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/combination_sum/Solution.py)
+    - 숫자 집합 candidates를 조합하여 합이 target이 되는 원소를 나열하라. 각 원소는 중복으로 나열 가능하다.
 
 ### [CodeSignal](https://app.codesignal.com/)
 
