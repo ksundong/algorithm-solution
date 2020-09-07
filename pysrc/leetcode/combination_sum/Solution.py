@@ -11,6 +11,7 @@ class Solution:
                 return
             if limit == 0:
                 result.append(elements[:])
+                return
 
             for cand in candidates[start:]:
                 elements.append(cand)
