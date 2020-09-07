@@ -13,11 +13,8 @@ class Solution:
                 result.append(elements[:])
                 return
 
-            for cand in candidates[start:]:
-                elements.append(cand)
-                comb(elements, start, limit - cand)
-                elements.pop()
-                start += 1
+            for i in range(start, len(candidates)):
+                comb(elements + [candidates[i]], i, limit - candidates[i])
 
         comb([], 0, target)
         return result
