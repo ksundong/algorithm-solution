@@ -802,6 +802,9 @@
 36. [39. Combination Sum](https://leetcode.com/problems/combination-sum/)
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/combination_sum/Solution.py)
     - 숫자 집합 candidates를 조합하여 합이 target이 되는 원소를 나열하라. 각 원소는 중복으로 나열 가능하다.
+    - 어떻게 만들다보니 통과하는 로직이 되었다.
+    - 중복조합은 start 값은 그대로 넘겨주고, for 루프를 돌때 마다 증가시켜주는 구조로 만들면 되는 것 같다.
+    - start 값을 없앴더니, 위치만 다른 중복되는 값이 도출되었다.
 
 ### [CodeSignal](https://app.codesignal.com/)
 
