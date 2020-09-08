@@ -808,6 +808,8 @@
 37. [78. Subsets](https://leetcode.com/problems/subsets/)
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/subsets/Solution.py)
     - 모든 부분 집합을 리턴하라.
+    - 조합 코드를 활용해보려고 했는데, 결과적으로 실패...
+    - 풀이를 참조했다.
 
 ### [CodeSignal](https://app.codesignal.com/)
 
