@@ -805,6 +805,9 @@
     - 어떻게 만들다보니 통과하는 로직이 되었다.
     - 중복조합은 start 값은 그대로 넘겨주고, for 루프를 돌때 마다 증가시켜주는 구조로 만들면 되는 것 같다.
     - start 값을 없앴더니, 위치만 다른 중복되는 값이 도출되었다.
+37. [78. Subsets](https://leetcode.com/problems/subsets/)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/subsets/Solution.py)
+    - 모든 부분 집합을 리턴하라.
 
 ### [CodeSignal](https://app.codesignal.com/)
 
