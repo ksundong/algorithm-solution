@@ -828,3 +828,10 @@
     - 문제의 조건을 이해했고, 풀이와 동일한 코드를 작성했다.
 3. 문자열 뒤집기
     - 문제를 잘 이해하지 못했던 것 같다. 이해하기 위해 검색을 통해서 이해했다.
+
+### 프로그래머스
+
+1. [크레인 인형뽑기 게임(2019 카카오 겨울 인턴십)](https://programmers.co.kr/learn/courses/30/lessons/64061)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/programmers/카카오%20겨울%20인턴십(2019)/크레인%20인형뽑기/solution.py)
+    - 좀 더 집중하면 잘 풀 수 있었을 듯...
+    - 소요시간 1시간
