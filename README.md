@@ -859,8 +859,14 @@
     - 경계값 설정을 잘못해줘서 테스트 케이스 오류가 났었다.
     - 소요시간 35분
 7. [괄호 변환(2020 카카오 블라인드 채용)](https://programmers.co.kr/learn/courses/30/lessons/60058)
-    - [풀이]((https://github.com/ksundong/algorithm-solution/blob/master/pysrc/programmers/카카오%20블라인드%20채용(2020)/괄호%20변환/solution.py))
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/programmers/카카오%20블라인드%20채용(2020)/괄호%20변환/solution.py)
     - 풀이 실패(30분 소요)
     - 균형잡힌 괄호 문자열 인덱스를 어떻게 잡아야 할지 감이 오지 않았음
     - 문제의 알고리즘을 구현하는데 어려움이 있었음
     - 재귀를 사용해야한다는 것은 알고있었는데, 어떻게 적용할지 막막했던 것 같다.
+8. [튜플(2019 카카오 겨울 인턴십)](https://programmers.co.kr/learn/courses/30/lessons/64065)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/programmers/카카오%20겨울%20인턴십(2019)/튜플/solution.py)
+    - 파이썬이라 너무 쉬운문제였나..?
+    - 정규식으로 걸러내는게 중요했다.
+    - 튜플의 순서를 알아내는게 살짝 까다로웠다. (많이 나온 순이라고 함)
+    - 소요시간 10분
