@@ -879,3 +879,8 @@
     - `join(delimiter)` 함수도 유용하게 쓸 수 있다.
     - 풀이를 보니 우선순위의 순서는 크게 중요하지 않은 값이었다. 이 부분만 좀 더 신경썼다면 좋은풀이였을 것 같다.
     - 한 편으로는 내가 너무 우선순위에 집착한 감이 없잖아 있다.
+10. [뉴스 클러스터링(2018 카카오 블라인드 채용)](https://programmers.co.kr/learn/courses/30/lessons/17677)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/programmers/카카오%20블라인드%20채용(2018)/뉴스%20클러스터링/solution.py)
+    - 정규식과 Counter(중복집합)를 활용하는 문제였다.
+    - 합집합을 구할 때, 교집합을 빼는걸 까먹었다.
+    - 소요시간 45분
