@@ -848,3 +848,8 @@
     - try excpet를 응용했다. lambda 식을 이용한 정렬 기준 설정을 사용했다.
     - 풀이에 어느정도 만족했다.
     - 소요시간 21분
+5. [다트 게임(2018 카카오 블라인드 채용)](https://programmers.co.kr/learn/courses/30/lessons/17682)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/programmers/카카오%20블라인드%20채용(2018)/다트%20게임/solution.py)
+    - 파이썬으로 정규식 처리가 아직 미숙해서 엄청 해멨다.
+    - 풀이가 썩 맘에 들지 않았다.
+    - 소요시간 35분
