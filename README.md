@@ -839,3 +839,7 @@
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/programmers/카카오%20인턴십(2020)/키패드%20누르기/solution.py)
     - 문제 풀이 자체가 오래 걸린듯
     - 소요시간 30분
+3. [비밀지도(2018 카카오 블라인드 채용)](https://programmers.co.kr/learn/courses/30/lessons/17681)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/programmers/카카오%20블라인드%20채용(2018)/비밀지도/solution.py)
+    - 파이썬 문법을 몰라서 좀 더 걸렸다.
+    - 소요시간 15분
