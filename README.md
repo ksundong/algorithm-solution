@@ -835,3 +835,7 @@
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/programmers/카카오%20겨울%20인턴십(2019)/크레인%20인형뽑기/solution.py)
     - 좀 더 집중하면 잘 풀 수 있었을 듯...
     - 소요시간 1시간
+2. [키패드 누르기(2020 카카오 인턴십)](https://programmers.co.kr/learn/courses/30/lessons/67256)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/programmers/카카오%20인턴십(2020)/키패드%20누르기/solution.py)
+    - 문제 풀이 자체가 오래 걸린듯
+    - 소요시간 30분
