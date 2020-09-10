@@ -843,3 +843,8 @@
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/programmers/카카오%20블라인드%20채용(2018)/비밀지도/solution.py)
     - 파이썬 문법을 몰라서 좀 더 걸렸다.
     - 소요시간 15분
+4. [실패율(2019 카카오 블라인드 채용)](https://programmers.co.kr/learn/courses/30/lessons/42889)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/programmers/카카오%20블라인드%20채용(2019)/실패율/solution.py)
+    - try excpet를 응용했다. lambda 식을 이용한 정렬 기준 설정을 사용했다.
+    - 풀이에 어느정도 만족했다.
+    - 소요시간 21분
