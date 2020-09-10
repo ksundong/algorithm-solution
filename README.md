@@ -853,3 +853,8 @@
     - 파이썬으로 정규식 처리가 아직 미숙해서 엄청 해멨다.
     - 풀이가 썩 맘에 들지 않았다.
     - 소요시간 35분
+6. [문자열 압축(2020 카카오 블라인드 채용)](https://programmers.co.kr/learn/courses/30/lessons/60057)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/programmers/카카오%20블라인드%20채용(2020)/문자열%20압축/solution.py)
+    - 한 세번째 푸는 것 같은데 풀 때마다 어려운 느낌이다.
+    - 경계값 설정을 잘못해줘서 테스트 케이스 오류가 났었다.
+    - 소요시간 35분
