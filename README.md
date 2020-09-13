@@ -810,6 +810,9 @@
     - 모든 부분 집합을 리턴하라.
     - 조합 코드를 활용해보려고 했는데, 결과적으로 실패...
     - 풀이를 참조했다.
+38. [332. Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/reconstruct_itinerary/Solution.py)
+    - [from, to]로 구성된 항공권 목록을 이용해 JFK에서 출발하는 여행 일정을 구성하라. 여러 일정이 있는 경우 사전 어휘순(Lexical Order)으로 방문한다.
 
 ### [CodeSignal](https://app.codesignal.com/)
 
