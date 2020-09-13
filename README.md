@@ -813,6 +813,10 @@
 38. [332. Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/)
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/reconstruct_itinerary/Solution.py)
     - [from, to]로 구성된 항공권 목록을 이용해 JFK에서 출발하는 여행 일정을 구성하라. 여러 일정이 있는 경우 사전 어휘순(Lexical Order)으로 방문한다.
+    - 그래프를 어떻게 구성해야할 지 막막했다.
+    - 그래프 구성 없이 했다가, 무한루프에 빠져버렸다.
+    - 풀이를 참고했다. defaultdict를 사용하더라..
+    - 재귀 풀이에 익숙해지자.
 
 ### [CodeSignal](https://app.codesignal.com/)
 

@@ -1,9 +1,24 @@
+import collections
 from typing import List
 
 
 class Solution:
     def findItinerary(self, tickets: List[List[str]]) -> List[str]:
-        pass
+        # 사전에 그래프를 구성
+        graph = collections.defaultdict(list)
+        for f, t in sorted(tickets, reverse=True):
+            graph[f].append(t)
+
+        answer = []
+
+        def dfs(a):
+            while graph[a]:
+                dfs(graph[a].pop())
+            answer.append(a)
+
+        dfs('JFK')
+
+        return answer[::-1]
 
 
 solution = Solution()
