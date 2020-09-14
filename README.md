@@ -820,6 +820,8 @@
 39. [207. Course Schedule](https://leetcode.com/problems/course-schedule/)
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/course_schedule/Solution.py)
     - 0을 완료하기 위해서는 1을 끝내야 한다는 것을 [0,1] 쌍으로 표현하는 n개의 코스가 있다. 코스 개수 n과 이 쌍들을 입력으로 받았을 때 모든 코스가 완료 가능한지 판별하라.
+    - 그래프가 순환구조인지 파악하는 문제인데, 주어진 numCourses를 활용하려고 해봤는데, 어디다 쓰는지 모르겠다.
+    - 예제 케이스를 만족하는 코드도 짜지 못했다.
 
 ### [CodeSignal](https://app.codesignal.com/)
 
