@@ -817,6 +817,9 @@
     - 그래프 구성 없이 했다가, 무한루프에 빠져버렸다.
     - 풀이를 참고했다. defaultdict를 사용하더라..
     - 재귀 풀이에 익숙해지자.
+39. [207. Course Schedule](https://leetcode.com/problems/course-schedule/)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/course_schedule/Solution.py)
+    - 0을 완료하기 위해서는 1을 끝내야 한다는 것을 [0,1] 쌍으로 표현하는 n개의 코스가 있다. 코스 개수 n과 이 쌍들을 입력으로 받았을 때 모든 코스가 완료 가능한지 판별하라.
 
 ### [CodeSignal](https://app.codesignal.com/)
 
