@@ -827,6 +827,8 @@
 40. [743. Network Deplay Time](https://leetcode.com/problems/network-delay-time/)
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/network_delay_time/Solution.py)
     - K부터 출발해 모든 노드가 신호를 받을 수 있는 시간을 계산하라. 불가능할 경우 -1을 리턴한다. 입력값 (u, v, w)는 각각 출발지, 도착지, 소요 시간으로 구성되며, 전체 노드의 개수는 N으로 입력받는다.
+    - 다익스트라 알고리즘을 알면 쉽게 풀리는 문제였다.
+    - 다익스트라 알고리즘을 한 번 직접 구현해보는 시간을 가지는게 좋을 것 같다.
 
 ### [CodeSignal](https://app.codesignal.com/)
 
