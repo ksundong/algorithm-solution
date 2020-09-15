@@ -11,16 +11,21 @@ class Solution:
 
         # 순환구조를 파악하기 위한 자료구조
         traced = set()
+        # 방문한 정점을 관리하기 위한 자료구조
+        visited = set()
 
         def dfs(a):
-            if a in traced:  # 이미 방문한 경우 순환구조임
+            if a in traced:  # 순환구조인 경우 False
                 return False
+            if a in visited:  # 이미 방문한 경우 True
+                return True
 
             traced.add(a)  # 방문한 위치 저장
             for b in graph[a]:  # 리스트 형태로 관리됨
                 if not dfs(b):  # 탈출 조건(내부에서 실패시)
                     return False
-            traced.remove(a)  # 방문 이력 제거
+            traced.remove(a)  # 순환 노드 기록 제거
+            visited.add(a)  # 방문 노드 기록 추가
 
             return True
 
