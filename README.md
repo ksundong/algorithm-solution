@@ -840,7 +840,10 @@
     - 재귀적으로 탐색하도록 했다. (44ms)
     - 풀이는 BFS를 사용 (52ms) 왜 더 느리지...
 43. [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)
-    - [풀이]()
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/diameter_of_binary_tree/Solution.py)
+    - 서로의 거리가 가장 먼 노드의 거리를 반환하라. 루트를 통할수도 있고 통하지 않을수도 있다.
+    - 거리는 간선의 개수로 나타낼 수 있다.
+    - 이진트리의 특성상 루트노드를 안거치고 나타내긴 힘들것 같다고 처음에 생각했다.
 44. [687. Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/)
     - [풀이]()
 45. [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
