@@ -847,7 +847,10 @@
     - 풀이가 뭐가 잘못됬는지는 모르겠지만 dfs로 풀이하도록 했다. 나는 다른 사람 풀이를 참고해서 `nonlocal`을 사용했다.
     - 책의 풀이도 dfs를 사용하고 클래스 변수를 사용했다.
 44. [687. Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/)
-    - [풀이]()
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/longest_univalue_path/Solution.py)
+    - 같은 값을 가진 노드간의 거리중 가장 긴 길이를 반환하라.
+    - 뭐가 Easy라는 건지 모르겠다...
+    - Leet Code의 풀이를 참고했다.
 45. [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
     - [풀이]()
 
