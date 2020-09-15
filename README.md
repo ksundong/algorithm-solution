@@ -844,6 +844,8 @@
     - 서로의 거리가 가장 먼 노드의 거리를 반환하라. 루트를 통할수도 있고 통하지 않을수도 있다.
     - 거리는 간선의 개수로 나타낼 수 있다.
     - 이진트리의 특성상 루트노드를 안거치고 나타내긴 힘들것 같다고 처음에 생각했다.
+    - 풀이가 뭐가 잘못됬는지는 모르겠지만 dfs로 풀이하도록 했다. 나는 다른 사람 풀이를 참고해서 `nonlocal`을 사용했다.
+    - 책의 풀이도 dfs를 사용하고 클래스 변수를 사용했다.
 44. [687. Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/)
     - [풀이]()
 45. [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)

@@ -8,7 +8,17 @@ class TreeNode:
 
 class Solution:
     def diameterOfBinaryTree(self, root: TreeNode) -> int:
-        pass
+        def depth(p):
+            if not p:
+                return 0
+            nonlocal length
+            left, right = depth(p.left), depth(p.right)
+            length = max(length, left + right)
+            return max(left, right) + 1
+
+        length = 0
+        depth(root)
+        return length
 
 
 solution = Solution()
