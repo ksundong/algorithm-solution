@@ -1,4 +1,7 @@
 # Definition for a binary tree node.
+import collections
+
+
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
         self.val = val
@@ -10,19 +13,20 @@ class Solution:
     def maxDepth(self, root: TreeNode) -> int:
         if not root:
             return 0
-        depth = 1
+        queue = collections.deque([root])
+        depth = 0
 
-        def get_depth(cur: TreeNode, d: int) -> int:
-            child_left, child_right = cur.left, cur.right
+        while queue:
+            depth += 1
 
-            if not child_left and not child_right:
-                return d
-            else:
-                left_depth = get_depth(child_left, d + 1) if child_left else 0
-                right_depth = get_depth(child_right, d + 1) if child_right else 0
-                return max(left_depth, right_depth)
+            for _ in range(len(queue)):
+                cur_root = queue.popleft()
+                if cur_root.left:
+                    queue.append(cur_root.left)
+                if cur_root.right:
+                    queue.append(cur_root.right)
 
-        return get_depth(root, depth)
+        return depth
 
 
 solution = Solution()

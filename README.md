@@ -838,6 +838,7 @@
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/maximum_depth_of_binary_tree/Solution.py)
     - 주어진 이진 트릐의 최대 깊이를 구하라.
     - 재귀적으로 탐색하도록 했다. (44ms)
+    - 풀이는 BFS를 사용 (52ms) 왜 더 느리지...
 43. [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)
     - [풀이]()
 44. [687. Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/)
