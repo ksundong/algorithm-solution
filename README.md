@@ -834,6 +834,14 @@
     - 시작점에서 도착점까지의 가장 저렴한 가격을 계산하되, K개의 경유지 이내에 도착하는 가격을 리턴하라. 경로가 존재하지 않을 경우 -1을 리턴한다.
     - 다익스트라 알고리즘을 응용해야 한다. 카운트를 받아서 해야하나?
     - dist 배열에 넣는 방식으로 했더니 이상하게 오류가 났다. 아마 끝까지 도달하지 않았다고 판정한 듯.. 그래서 책을 참고해서 그냥 같아질 때, 반환하는 식으로 처리했다.
+42. [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
+    - [풀이]()
+43. [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)
+    - [풀이]()
+44. [687. Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/)
+    - [풀이]()
+45. [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
+    - [풀이]()
 
 ### [CodeSignal](https://app.codesignal.com/)
 
