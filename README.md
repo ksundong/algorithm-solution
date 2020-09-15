@@ -852,7 +852,9 @@
     - 뭐가 Easy라는 건지 모르겠다...
     - Leet Code의 풀이를 참고했다.
 45. [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
-    - [풀이]()
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/invert_binary_tree/Solution.py)
+    - 좌 우 노드를 반전하라.
+    - 파이썬 사기다.
 
 ### [CodeSignal](https://app.codesignal.com/)
 
