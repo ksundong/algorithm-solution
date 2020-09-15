@@ -824,6 +824,9 @@
     - 예제 케이스를 만족하는 코드도 짜지 못했다.
     - 순환구조를 확인하는 코드를 참고해서 작성했다.
     - 가지치기를 이용한 최적화를 사용했다.
+40. [743. Network Deplay Time](https://leetcode.com/problems/network-delay-time/)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/network_delay_time/Solution.py)
+    - K부터 출발해 모든 노드가 신호를 받을 수 있는 시간을 계산하라. 불가능할 경우 -1을 리턴한다. 입력값 (u, v, w)는 각각 출발지, 도착지, 소요 시간으로 구성되며, 전체 노드의 개수는 N으로 입력받는다.
 
 ### [CodeSignal](https://app.codesignal.com/)
 
