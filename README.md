@@ -860,6 +860,7 @@
     - 두 이진 트리를 병합하라. 중복되는 노드는 값을 합산한다.
     - 간단한 재귀 조건으로 풀 수 있는 문제였다.
 47. [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
+    - 난이도 세개라 생략
 48. [110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)
 49. [310. Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/)
 50. [108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
