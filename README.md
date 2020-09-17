@@ -862,6 +862,11 @@
 47. [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
     - 난이도 세개라 생략
 48. [110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/balanced_binary_tree/Solution.py)
+    - 이진 트리가 높이 균형인 이진트리인지 반환하라.
+    - 높이 균형은 '모든' 노드의 서브 트리 간의 높이 차이가 1 이하인 것을 말한다.
+    - 함수가 해야하는 역할이 두 가지여서 조금 마음에 안들었다.
+    - 근데, 결국엔 이렇게 만들어야 하더라...
 49. [310. Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/)
 50. [108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
 51. [1038. Binary Search Tree to Greater Sum Tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/)
