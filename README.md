@@ -856,6 +856,9 @@
     - 좌 우 노드를 반전하라.
     - 파이썬 사기다.
 46. [617. Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/merge_two_binary_trees/Solution.py)
+    - 두 이진 트리를 병합하라. 중복되는 노드는 값을 합산한다.
+    - 간단한 재귀 조건으로 풀 수 있는 문제였다.
 47. [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
 48. [110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)
 49. [310. Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/)
