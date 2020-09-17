@@ -855,6 +855,12 @@
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/invert_binary_tree/Solution.py)
     - 좌 우 노드를 반전하라.
     - 파이썬 사기다.
+46. [617. Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)
+47. [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
+48. [110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)
+49. [310. Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/)
+50. [108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
+51. [1038. Binary Search Tree to Greater Sum Tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/)
 
 ### [CodeSignal](https://app.codesignal.com/)
 
