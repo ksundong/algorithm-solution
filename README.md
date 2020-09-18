@@ -873,6 +873,8 @@
     - 각각 순회하면서 높이를 구하도록 했는데, 원하는대로 동작하지 않았다.
     - 풀이를 보니 잎 노드를 제거하라는데 왜 그래야하는지 이해가 잘 가지 않았다.
 50. [108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/convert_sorted_array_to_binary_search_tree/Solution.py)
+    - 오름차순으로 정렬된 배열을 높이 균형 이진 탐색 트리로 변환하라.
 51. [1038. Binary Search Tree to Greater Sum Tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/)
 
 ### [CodeSignal](https://app.codesignal.com/)
