@@ -876,6 +876,9 @@
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/convert_sorted_array_to_binary_search_tree/Solution.py)
     - 오름차순으로 정렬된 배열을 높이 균형 이진 탐색 트리로 변환하라.
 51. [1038. Binary Search Tree to Greater Sum Tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/binary_search_tree_to_greater_sum_tree/Solution.py)
+    - BST의 각 노드를 현재값보다 더 큰 값을 가진 모든 노드의 합으로 만들어라.
+    - BST의 특성을 활용한 문제
 
 ### [CodeSignal](https://app.codesignal.com/)
 
