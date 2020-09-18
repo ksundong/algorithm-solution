@@ -871,6 +871,7 @@
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/minimum_height_trees/Solution.py)
     - 노드 개수와 무방향 그래프를 입력받아 트리가 최소 높이가 되는 루트의 목록을 리턴하라.
     - 각각 순회하면서 높이를 구하도록 했는데, 원하는대로 동작하지 않았다.
+    - 풀이를 보니 잎 노드를 제거하라는데 왜 그래야하는지 이해가 잘 가지 않았다.
 50. [108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
 51. [1038. Binary Search Tree to Greater Sum Tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/)
 
