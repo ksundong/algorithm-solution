@@ -886,6 +886,8 @@
     - 더 한다면 가지치기를 통해서 배제하는 방법이 있겠다.
 53. [783. Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/)
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/minimum_distance_between_bst_nodes/Solution.py)
+    - 두 노드 간 값의 차이가 가장 작은 노드의 값의 차이를 출력하라.
+    - 값의 차이를 `min` 을 사용해서 꺼내는 로직이 중요하다. BST를 이해하면 어렵지 않게 풀 수 있는 문제였다.
 54. [105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/construct_binary_tree_from_preorder_and_inorder_traversal/Solution.py)
 
