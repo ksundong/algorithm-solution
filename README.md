@@ -890,6 +890,9 @@
     - 값의 차이를 `min` 을 사용해서 꺼내는 로직이 중요하다. BST를 이해하면 어렵지 않게 풀 수 있는 문제였다.
 54. [105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/construct_binary_tree_from_preorder_and_inorder_traversal/Solution.py)
+    - 트리의 전위, 중위 순회 결과를 입력값으로 받아 이진 트리를 구축하라.
+    - 재밌는 문제였다. 전위 순회 결과에서 중위 순회 결과와의 연관성을 이용해서 푸는 문제였다.
+    - 후위 순회였으면 조금 순서가 달라지겠지?
 
 ### [CodeSignal](https://app.codesignal.com/)
 
