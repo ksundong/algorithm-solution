@@ -881,6 +881,9 @@
     - BST의 특성을 활용한 문제
 52. [938. Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/range_sum_of_bst/Solution.py)
+    - 이진 탐색 트리(BST)가 주어졌을 때 L 이상 R 이하의 값을 지닌 노드의 합을 구하라.
+    - 간단하게 재귀로 구현했다.
+    - 더 한다면 가지치기를 통해서 배제하는 방법이 있겠다.
 53. [783. Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/)
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/minimum_distance_between_bst_nodes/Solution.py)
 54. [105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
