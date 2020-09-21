@@ -879,6 +879,12 @@
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/binary_search_tree_to_greater_sum_tree/Solution.py)
     - BST의 각 노드를 현재값보다 더 큰 값을 가진 모든 노드의 합으로 만들어라.
     - BST의 특성을 활용한 문제
+52. [938. Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/range_sum_of_bst/Solution.py)
+53. [783. Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/minimum_distance_between_bst_nodes/Solution.py)
+54. [105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/construct_binary_tree_from_preorder_and_inorder_traversal/Solution.py)
 
 ### [CodeSignal](https://app.codesignal.com/)
 
