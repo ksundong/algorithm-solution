@@ -897,6 +897,10 @@
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/kth_largest_element_in_an_array/Solution.py)
     - heap을 알면 쉽게 풀 수 있는 문제다.
     - 시간복잡도를 좀 더 개선할 방법은 없을지 고민해보자.
+56. [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/implement_trie_prefix_tree/Solution.py)
+    - 트라이 자료구조를 구현하라
+    - 한 시간 정도 걸린 것 같다.(파이썬을 잘 몰라서 생긴 문제...)
 
 ### [CodeSignal](https://app.codesignal.com/)
 
