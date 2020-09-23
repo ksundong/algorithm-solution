@@ -893,6 +893,10 @@
     - 트리의 전위, 중위 순회 결과를 입력값으로 받아 이진 트리를 구축하라.
     - 재밌는 문제였다. 전위 순회 결과에서 중위 순회 결과와의 연관성을 이용해서 푸는 문제였다.
     - 후위 순회였으면 조금 순서가 달라지겠지?
+55. [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/leetcode/kth_largest_element_in_an_array/Solution.py)
+    - heap을 알면 쉽게 풀 수 있는 문제다.
+    - 시간복잡도를 좀 더 개선할 방법은 없을지 고민해보자.
 
 ### [CodeSignal](https://app.codesignal.com/)
 
