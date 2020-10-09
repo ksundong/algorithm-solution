@@ -995,3 +995,12 @@
     - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/programmers/두-개-뽑아서-더하기/solution.py)
     - 3분만에 푼 문제(level1이라...)
     - 1줄로 풀이할 수 있었다.
+14. [124 나라의 숫자](https://programmers.co.kr/learn/courses/30/lessons/12899)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/programmers/124-나라의-숫자/solution.py)
+    - 풀이에서 좀 헤매서 50분이나 걸렸다. 3진법을 떠올린 것 까지는 좋았는데, 그 이후에 어떻게 처리해줘야 할지 못찾았다.
+    - 공개된 풀이가 깔끔해서 차용했다.
+15. [주식가격](https://programmers.co.kr/learn/courses/30/lessons/42584)
+    - [풀이](https://github.com/ksundong/algorithm-solution/blob/master/pysrc/programmers/주식가격/solution.py)
+    - 이중 for문으로도 풀렸으나, 요구사항이 O(n^2)을 요구하는게 아니라고 판단했다.
+    - 복잡도를 낮출만한 방법은 stack을 사용하는 것이었는데, 잘 모르겠다.
+    - C++ 코드를 참고해서 이해했다.
