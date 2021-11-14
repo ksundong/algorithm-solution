@@ -1,9 +1,9 @@
 package dev.idion.leetcode.removeduplicates;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class SolutionTest {
     Solution solution;
@@ -33,6 +33,14 @@ class SolutionTest {
     void testRemoveDuplicates3() {
         int[] nums = {0, 0, 2, 2, 2, 4, 6, 20, 20, 20};
         int expectedReturnValue = 5;
+        int actualReturnValue = solution.removeDuplicates(nums);
+        assertEquals(expectedReturnValue, actualReturnValue);
+    }
+
+    @Test
+    void testRemoveDuplicates4() {
+        int[] nums = {};
+        int expectedReturnValue = 0;
         int actualReturnValue = solution.removeDuplicates(nums);
         assertEquals(expectedReturnValue, actualReturnValue);
     }

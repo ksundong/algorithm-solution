@@ -2,18 +2,19 @@ package dev.idion.leetcode.removeduplicates;
 
 public class Solution {
     public int removeDuplicates(int[] nums) {
-        int currentNumber = Integer.MIN_VALUE;
-        int nextIndex = 0;
+        int prev = Integer.MIN_VALUE;
+        int current;
+        int index = 0;
 
         for (int i = 0, numsLength = nums.length; i < numsLength; i++) {
-            int newNumber = nums[i];
-            if (currentNumber < newNumber) {
-                currentNumber = newNumber;
-                nums[nextIndex] = currentNumber;
-                nextIndex++;
+            current = nums[i];
+            if (prev < current) {
+                prev = current;
+                nums[index] = current;
+                index++;
             }
         }
 
-        return nextIndex;
+        return index;
     }
 }
